@@ -1,0 +1,204 @@
+{
+  "created_utc": "2026-10-24T01:31:38.905595+00:00",
+  "catalog": "SDSS DR17",
+  "purpose": "Buffered reference population used exclusively for local-neighborhood calculations.",
+  "target_region": {
+    "ra_min": 120.0,
+    "ra_max": 240.0,
+    "dec_min": 0.0,
+    "dec_max": 60.0
+  },
+  "reference_region": {
+    "ra_min": 119.5,
+    "ra_max": 240.5,
+    "dec_min": -0.25,
+    "dec_max": 60.25
+  },
+  "maximum_neighborhood_radius_arcsec": 600.0,
+  "expected_count_from_precheck": 1732111,
+  "downloaded_unique_count": 1732110,
+  "duplicate_objid_detected": 1,
+  "duplicate_specobjid_detected": 0,
+  "class_counts": {
+    "GALAXY": 1327175,
+    "QSO": 404935
+  },
+  "chunks": [
+    {
+      "chunk": 1,
+      "ra_min": 119.5,
+      "ra_max": 124.5,
+      "rows": 66677,
+      "file": "sdss_ref_001_119.5_124.5.csv"
+    },
+    {
+      "chunk": 2,
+      "ra_min": 124.5,
+      "ra_max": 129.5,
+      "rows": 74551,
+      "file": "sdss_ref_002_124.5_129.5.csv"
+    },
+    {
+      "chunk": 3,
+      "ra_min": 129.5,
+      "ra_max": 134.5,
+      "rows": 81249,
+      "file": "sdss_ref_003_129.5_134.5.csv"
+    },
+    {
+      "chunk": 4,
+      "ra_min": 134.5,
+      "ra_max": 139.5,
+      "rows": 78488,
+      "file": "sdss_ref_004_134.5_139.5.csv"
+    },
+    {
+      "chunk": 5,
+      "ra_min": 139.5,
+      "ra_max": 144.5,
+      "rows": 75521,
+      "file": "sdss_ref_005_139.5_144.5.csv"
+    },
+    {
+      "chunk": 6,
+      "ra_min": 144.5,
+      "ra_max": 149.5,
+      "rows": 76855,
+      "file": "sdss_ref_006_144.5_149.5.csv"
+    },
+    {
+      "chunk": 7,
+      "ra_min": 149.5,
+      "ra_max": 154.5,
+      "rows": 76184,
+      "file": "sdss_ref_007_149.5_154.5.csv"
+    },
+    {
+      "chunk": 8,
+      "ra_min": 154.5,
+      "ra_max": 159.5,
+      "rows": 78819,
+      "file": "sdss_ref_008_154.5_159.5.csv"
+    },
+    {
+      "chunk": 9,
+      "ra_min": 159.5,
+      "ra_max": 164.5,
+      "rows": 74884,
+      "file": "sdss_ref_009_159.5_164.5.csv"
+    },
+    {
+      "chunk": 10,
+      "ra_min": 164.5,
+      "ra_max": 169.5,
+      "rows": 72550,
+      "file": "sdss_ref_010_164.5_169.5.csv"
+    },
+    {
+      "chunk": 11,
+      "ra_min": 169.5,
+      "ra_max": 174.5,
+      "rows": 71704,
+      "file": "sdss_ref_011_169.5_174.5.csv"
+    },
+    {
+      "chunk": 12,
+      "ra_min": 174.5,
+      "ra_max": 179.5,
+      "rows": 72498,
+      "file": "sdss_ref_012_174.5_179.5.csv"
+    },
+    {
+      "chunk": 13,
+      "ra_min": 179.5,
+      "ra_max": 184.5,
+      "rows": 71659,
+      "file": "sdss_ref_013_179.5_184.5.csv"
+    },
+    {
+      "chunk": 14,
+      "ra_min": 184.5,
+      "ra_max": 189.5,
+      "rows": 69130,
+      "file": "sdss_ref_014_184.5_189.5.csv"
+    },
+    {
+      "chunk": 15,
+      "ra_min": 189.5,
+      "ra_max": 194.5,
+      "rows": 67899,
+      "file": "sdss_ref_015_189.5_194.5.csv"
+    },
+    {
+      "chunk": 16,
+      "ra_min": 194.5,
+      "ra_max": 199.5,
+      "rows": 68788,
+      "file": "sdss_ref_016_194.5_199.5.csv"
+    },
+    {
+      "chunk": 17,
+      "ra_min": 199.5,
+      "ra_max": 204.5,
+      "rows": 68084,
+      "file": "sdss_ref_017_199.5_204.5.csv"
+    },
+    {
+      "chunk": 18,
+      "ra_min": 204.5,
+      "ra_max": 209.5,
+      "rows": 68486,
+      "file": "sdss_ref_018_204.5_209.5.csv"
+    },
+    {
+      "chunk": 19,
+      "ra_min": 209.5,
+      "ra_max": 214.5,
+      "rows": 67345,
+      "file": "sdss_ref_019_209.5_214.5.csv"
+    },
+    {
+      "chunk": 20,
+      "ra_min": 214.5,
+      "ra_max": 219.5,
+      "rows": 70628,
+      "file": "sdss_ref_020_214.5_219.5.csv"
+    },
+    {
+      "chunk": 21,
+      "ra_min": 219.5,
+      "ra_max": 224.5,
+      "rows": 69028,
+      "file": "sdss_ref_021_219.5_224.5.csv"
+    },
+    {
+      "chunk": 22,
+      "ra_min": 224.5,
+      "ra_max": 229.5,
+      "rows": 67581,
+      "file": "sdss_ref_022_224.5_229.5.csv"
+    },
+    {
+      "chunk": 23,
+      "ra_min": 229.5,
+      "ra_max": 234.5,
+      "rows": 66920,
+      "file": "sdss_ref_023_229.5_234.5.csv"
+    },
+    {
+      "chunk": 24,
+      "ra_min": 234.5,
+      "ra_max": 239.5,
+      "rows": 63731,
+      "file": "sdss_ref_024_234.5_239.5.csv"
+    },
+    {
+      "chunk": 25,
+      "ra_min": 239.5,
+      "ra_max": 240.5,
+      "rows": 12852,
+      "file": "sdss_ref_025_239.5_240.5.csv"
+    }
+  ],
+  "sha256": "d8d327d1f24acf39b6e33ccbb9309953e49525f79b90fc701b48ac14b663f7cf"
+}

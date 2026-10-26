@@ -1,0 +1,7 @@
+Diagnostico de match interno: SDSS
+Objetos con features: 50000
+nn_sep_arcsec mediana: 155.796669 arcsec; % > 0: 100.00%
+kth_sep_arcsec mediana: 416.294160 arcsec; % > 0: 100.00%
+neighbor_count_radius media: 2.873840; mediana: 2.000000; % > 0: 87.41%
+local_density_knn media: 0.046200; mediana: 0.033061; % > 0: 100.00%
+redshift_neighbor_count media: 2.804200; mediana: 1.000000; % > 0: 66.03%

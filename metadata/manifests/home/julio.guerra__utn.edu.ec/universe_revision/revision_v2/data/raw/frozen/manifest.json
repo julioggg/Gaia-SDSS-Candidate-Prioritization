@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-24T00:26:15.944384+00:00",
+  "purpose": "Frozen deterministic datasets for peer-review revision",
+  "software": {
+    "python": "3.10.20 (main, Mar 16 2026, 23:08:12) [GCC 14.2.0]",
+    "platform": "Linux-5.4.0-216-generic-x86_64-with-glibc2.41",
+    "pandas": "2.3.3",
+    "numpy": "2.2.6",
+    "astroquery": "0.4.11",
+    "astropy": "6.1.7"
+  },
+  "gaia": {
+    "release": "Gaia DR3",
+    "region": {
+      "ra_deg": 180.0,
+      "dec_deg": 30.0,
+      "radius_deg": 3.0
+    },
+    "eligible_population_n": 35396,
+    "frozen_sample_n": 10000,
+    "selection": "Complete eligible field downloaded; locally sorted by random_index then source_id; first 10,000 frozen.",
+    "unique_source_id": 10000,
+    "random_index_min": 60968,
+    "random_index_max": 510642169
+  },
+  "sdss": {
+    "release": "SDSS DR17",
+    "frozen_sample_n": 50000,
+    "selection": "PhotoObj joined to SpecObj using objid=bestobjid; clean=1; mode=1; zWarning=0; GALAXY/QSO; deterministic ORDER BY objid.",
+    "unique_objid": 50000,
+    "unique_specobjid": 50000,
+    "class_counts": {
+      "GALAXY": 38484,
+      "QSO": 11516
+    }
+  },
+  "sha256": {
+    "gaia_eligible_population.csv": "4abbcebc7ae5bfe325af9d0a95ad4fbd8c6bb3376d4665f8010bba2046d66e99",
+    "gaia_raw_frozen.csv": "91c01443c85a5509048949222a1458ad6248e47bea1215732ca1eae0c60135a0",
+    "sdss_raw_frozen.csv": "415f5aecd0d916b40ae3e850d35417936525f4ecc29035a53b030ba4e5ca2fbc",
+    "gaia_query.adql": "ad5af7d05430e5579ecb197223215a0c9abd3736b091083c83721c6bb234bbf7",
+    "sdss_query.sql": "ffb3eb7795e84b7e4feac4b6cdfe9b129a41b26cfed6cfe9904b221426f8cba4",
+    "gaia_source_ids.txt": "11db16f9d771fed3b8fdbf2f56fb100d5d8b5a75de002ec5a6234292c409a1e0",
+    "sdss_object_ids.csv": "72d88871bb081f2c6861f8ceeee1236b6f6702733acc818f759f0e2f68a46ec0"
+  }
+}

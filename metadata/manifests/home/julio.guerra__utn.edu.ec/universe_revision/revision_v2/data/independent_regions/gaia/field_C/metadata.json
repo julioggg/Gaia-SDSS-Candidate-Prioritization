@@ -1,0 +1,24 @@
+{
+  "field": "field_C",
+  "center_ra_deg": 180.0,
+  "center_dec_deg": -30.0,
+  "core_radius_deg": 3.0,
+  "buffer_deg": 0.1,
+  "reference_radius_deg": 3.1,
+  "tile_width_dec_deg": 0.5,
+  "core_count_tap": 152878,
+  "core_count_assembled": 152878,
+  "frozen_n": 10000,
+  "reference_count_tap": 163539,
+  "reference_count_assembled": 163539,
+  "random_index_min": 19530,
+  "random_index_max": 119414572,
+  "hashes": {
+    "eligible_population_sha256": "4cee4283f884da4455ad59fbd4c7d492fb6965b4510cc05555f2b8f85431b54c",
+    "raw_frozen_sha256": "2630e9cdd53531b927342748200cbcf93aeeab884e928c8f32341095921adb8d",
+    "source_ids_sha256": "4433e0143196bf9cbeef557c44b16bfe5e591d3d41a6dd9cfa7ac13fde739aea",
+    "reference_buffered_sha256": "8b026afeff115f3814be02fd6f51dc78a2ecebe9868374aa6df0b454bd6864a2",
+    "core_tile_manifest_sha256": "f5b61e6c8d39edac81f649568605d4fb0751df9a12a382538f9d1973f2722ec4",
+    "reference_tile_manifest_sha256": "a81d3e68a2e5ec6fa3f3b467531aad3d4de4d96a9acfcf8e13b4914f8f6d1e54"
+  }
+}

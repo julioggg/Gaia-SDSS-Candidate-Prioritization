@@ -1,0 +1,21 @@
+catalog: gaia
+data_release: Gaia DR3
+row_limit: 10000
+region:
+  center_ra_deg: 180.0
+  center_dec_deg: 30.0
+  radius_deg: 3.0
+quality_filters:
+  min_parallax_snr: 5.0
+  max_ruwe: 1.4
+  max_vtan_kms: 1500.0
+match_internal:
+  radius_arcsec: 120.0
+  kth_neighbor: 5
+optimization:
+  top_k: 1000
+  min_effective_features: 3.0
+  random_seed: 42
+outputs:
+  raw_csv: data/raw/frozen/gaia_raw_frozen.csv
+  processed_csv: data/processed/gaia_features_frozen.csv

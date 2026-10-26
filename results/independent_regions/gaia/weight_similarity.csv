@@ -1,0 +1,4 @@
+comparison,cosine_weight_similarity,l1_weight_distance
+original_vs_field_C,0.944959319723273,0.3440412928802577
+original_vs_field_D,0.9714605769386585,0.22846543235726569
+field_C_vs_field_D,0.9945820101473156,0.115575860522992

@@ -1,0 +1,46 @@
+{
+  "created_utc": "2026-10-24T01:00:45.523610+00:00",
+  "release": "SDSS DR17",
+  "source_view": "PhotoPrimary joined to SpecObj",
+  "sampling": {
+    "method": "deterministic HTM pseudo-random subsampling",
+    "expression": "(htmid * 37) & 0xFFFF",
+    "server_threshold": 6500,
+    "candidate_population_n": 170008,
+    "frozen_sample_n": 50000,
+    "local_order": [
+      "sample_key",
+      "objid"
+    ]
+  },
+  "quality_filters": {
+    "clean": 1,
+    "zWarning": 0,
+    "redshift_min": 0.01,
+    "redshift_max": 5.0,
+    "classes": [
+      "GALAXY",
+      "QSO"
+    ],
+    "all_magnitudes_range": [
+      10,
+      30
+    ]
+  },
+  "class_counts": {
+    "GALAXY": 38360,
+    "QSO": 11640
+  },
+  "spatial_extent": {
+    "ra_min": 120.002575934973,
+    "ra_max": 239.999490434715,
+    "dec_min": 0.000759264556148908,
+    "dec_max": 59.9998994663615
+  },
+  "sha256": {
+    "sdss_htm_candidate_population.csv": "d43ba12ac47bf6954fa52cde27edc7248bb7b5b00cdcac2128a662ad8393f0b7",
+    "sdss_raw_frozen.csv": "0ce7c51a53e41b63d79ebbae2f6da4f8285cfe38794f7f28d4e96136dc064db3",
+    "sdss_query_htm.sql": "6dda2c5d6d03c6a57083a433da312dec6bd99176401c4c058301486693d4b6c2",
+    "sdss_object_ids.csv": "73a142e3782824bcf2b031c28a0bdb9fc5320bd227e01e42fcbf988843bfb097"
+  }
+}

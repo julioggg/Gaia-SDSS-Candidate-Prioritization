@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env
+
+# Logs / HPC
+*.log
+slurm-*.out
+*.tmp
+*.job
+
+# Editors / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large scientific binary data
+*.h5
+*.hdf5
+*.h5ad
+*.fits
+*.fits.gz
+*.parquet
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+
+# Large reconstructed data
+data/raw/
+data/reference/
+large_data_archive/
+
+# Cache
+.cache/
+cache/

@@ -1,0 +1,638 @@
+{
+  "expected": 279036,
+  "assembled": 279036,
+  "ra_tile_deg": 5.0,
+  "dec_tile_deg": 5.0,
+  "tiles": [
+    {
+      "i": 0,
+      "j": 0,
+      "ra_lo": 199.75,
+      "ra_hi": 204.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 6361,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra00_dec00.sql"
+    },
+    {
+      "i": 0,
+      "j": 1,
+      "ra_lo": 199.75,
+      "ra_hi": 204.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 6632,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra00_dec01.sql"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "ra_lo": 199.75,
+      "ra_hi": 204.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 6129,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra00_dec02.sql"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "ra_lo": 199.75,
+      "ra_hi": 204.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 6211,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra00_dec03.sql"
+    },
+    {
+      "i": 0,
+      "j": 4,
+      "ra_lo": 199.75,
+      "ra_hi": 204.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 5564,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra00_dec04.sql"
+    },
+    {
+      "i": 0,
+      "j": 5,
+      "ra_lo": 199.75,
+      "ra_hi": 204.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 5073,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra00_dec05.sql"
+    },
+    {
+      "i": 0,
+      "j": 6,
+      "ra_lo": 199.75,
+      "ra_hi": 204.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 368,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra00_dec06.sql"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "ra_lo": 204.75,
+      "ra_hi": 209.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 5740,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra01_dec00.sql"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "ra_lo": 204.75,
+      "ra_hi": 209.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 7324,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra01_dec01.sql"
+    },
+    {
+      "i": 1,
+      "j": 2,
+      "ra_lo": 204.75,
+      "ra_hi": 209.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 5694,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra01_dec02.sql"
+    },
+    {
+      "i": 1,
+      "j": 3,
+      "ra_lo": 204.75,
+      "ra_hi": 209.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 6093,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra01_dec03.sql"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "ra_lo": 204.75,
+      "ra_hi": 209.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 4917,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra01_dec04.sql"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "ra_lo": 204.75,
+      "ra_hi": 209.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 4786,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra01_dec05.sql"
+    },
+    {
+      "i": 1,
+      "j": 6,
+      "ra_lo": 204.75,
+      "ra_hi": 209.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 267,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra01_dec06.sql"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "ra_lo": 209.75,
+      "ra_hi": 214.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 4708,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra02_dec00.sql"
+    },
+    {
+      "i": 2,
+      "j": 1,
+      "ra_lo": 209.75,
+      "ra_hi": 214.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 6244,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra02_dec01.sql"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "ra_lo": 209.75,
+      "ra_hi": 214.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 6150,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra02_dec02.sql"
+    },
+    {
+      "i": 2,
+      "j": 3,
+      "ra_lo": 209.75,
+      "ra_hi": 214.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 5344,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra02_dec03.sql"
+    },
+    {
+      "i": 2,
+      "j": 4,
+      "ra_lo": 209.75,
+      "ra_hi": 214.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 6638,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra02_dec04.sql"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "ra_lo": 209.75,
+      "ra_hi": 214.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 4885,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra02_dec05.sql"
+    },
+    {
+      "i": 2,
+      "j": 6,
+      "ra_lo": 209.75,
+      "ra_hi": 214.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 317,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra02_dec06.sql"
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "ra_lo": 214.75,
+      "ra_hi": 219.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 5269,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra03_dec00.sql"
+    },
+    {
+      "i": 3,
+      "j": 1,
+      "ra_lo": 214.75,
+      "ra_hi": 219.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 6612,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra03_dec01.sql"
+    },
+    {
+      "i": 3,
+      "j": 2,
+      "ra_lo": 214.75,
+      "ra_hi": 219.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 6477,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra03_dec02.sql"
+    },
+    {
+      "i": 3,
+      "j": 3,
+      "ra_lo": 214.75,
+      "ra_hi": 219.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 6193,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra03_dec03.sql"
+    },
+    {
+      "i": 3,
+      "j": 4,
+      "ra_lo": 214.75,
+      "ra_hi": 219.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 6872,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra03_dec04.sql"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "ra_lo": 214.75,
+      "ra_hi": 219.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 5013,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra03_dec05.sql"
+    },
+    {
+      "i": 3,
+      "j": 6,
+      "ra_lo": 214.75,
+      "ra_hi": 219.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 356,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra03_dec06.sql"
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "ra_lo": 219.75,
+      "ra_hi": 224.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 5632,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra04_dec00.sql"
+    },
+    {
+      "i": 4,
+      "j": 1,
+      "ra_lo": 219.75,
+      "ra_hi": 224.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 6734,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra04_dec01.sql"
+    },
+    {
+      "i": 4,
+      "j": 2,
+      "ra_lo": 219.75,
+      "ra_hi": 224.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 5915,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra04_dec02.sql"
+    },
+    {
+      "i": 4,
+      "j": 3,
+      "ra_lo": 219.75,
+      "ra_hi": 224.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 6039,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra04_dec03.sql"
+    },
+    {
+      "i": 4,
+      "j": 4,
+      "ra_lo": 219.75,
+      "ra_hi": 224.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 5311,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra04_dec04.sql"
+    },
+    {
+      "i": 4,
+      "j": 5,
+      "ra_lo": 219.75,
+      "ra_hi": 224.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 4849,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra04_dec05.sql"
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "ra_lo": 219.75,
+      "ra_hi": 224.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 342,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra04_dec06.sql"
+    },
+    {
+      "i": 5,
+      "j": 0,
+      "ra_lo": 224.75,
+      "ra_hi": 229.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 4840,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra05_dec00.sql"
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "ra_lo": 224.75,
+      "ra_hi": 229.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 6472,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra05_dec01.sql"
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "ra_lo": 224.75,
+      "ra_hi": 229.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 6301,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra05_dec02.sql"
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "ra_lo": 224.75,
+      "ra_hi": 229.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 5520,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra05_dec03.sql"
+    },
+    {
+      "i": 5,
+      "j": 4,
+      "ra_lo": 224.75,
+      "ra_hi": 229.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 4903,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra05_dec04.sql"
+    },
+    {
+      "i": 5,
+      "j": 5,
+      "ra_lo": 224.75,
+      "ra_hi": 229.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 4407,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra05_dec05.sql"
+    },
+    {
+      "i": 5,
+      "j": 6,
+      "ra_lo": 224.75,
+      "ra_hi": 229.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 341,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra05_dec06.sql"
+    },
+    {
+      "i": 6,
+      "j": 0,
+      "ra_lo": 229.75,
+      "ra_hi": 234.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 5634,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra06_dec00.sql"
+    },
+    {
+      "i": 6,
+      "j": 1,
+      "ra_lo": 229.75,
+      "ra_hi": 234.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 6518,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra06_dec01.sql"
+    },
+    {
+      "i": 6,
+      "j": 2,
+      "ra_lo": 229.75,
+      "ra_hi": 234.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 5624,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra06_dec02.sql"
+    },
+    {
+      "i": 6,
+      "j": 3,
+      "ra_lo": 229.75,
+      "ra_hi": 234.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 5465,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra06_dec03.sql"
+    },
+    {
+      "i": 6,
+      "j": 4,
+      "ra_lo": 229.75,
+      "ra_hi": 234.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 5017,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra06_dec04.sql"
+    },
+    {
+      "i": 6,
+      "j": 5,
+      "ra_lo": 229.75,
+      "ra_hi": 234.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 4178,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra06_dec05.sql"
+    },
+    {
+      "i": 6,
+      "j": 6,
+      "ra_lo": 229.75,
+      "ra_hi": 234.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 290,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra06_dec06.sql"
+    },
+    {
+      "i": 7,
+      "j": 0,
+      "ra_lo": 234.75,
+      "ra_hi": 239.75,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 5283,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra07_dec00.sql"
+    },
+    {
+      "i": 7,
+      "j": 1,
+      "ra_lo": 234.75,
+      "ra_hi": 239.75,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 6390,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra07_dec01.sql"
+    },
+    {
+      "i": 7,
+      "j": 2,
+      "ra_lo": 234.75,
+      "ra_hi": 239.75,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 5985,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra07_dec02.sql"
+    },
+    {
+      "i": 7,
+      "j": 3,
+      "ra_lo": 234.75,
+      "ra_hi": 239.75,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 5663,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra07_dec03.sql"
+    },
+    {
+      "i": 7,
+      "j": 4,
+      "ra_lo": 234.75,
+      "ra_hi": 239.75,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 5355,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra07_dec04.sql"
+    },
+    {
+      "i": 7,
+      "j": 5,
+      "ra_lo": 234.75,
+      "ra_hi": 239.75,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 4128,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra07_dec05.sql"
+    },
+    {
+      "i": 7,
+      "j": 6,
+      "ra_lo": 234.75,
+      "ra_hi": 239.75,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 287,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra07_dec06.sql"
+    },
+    {
+      "i": 8,
+      "j": 0,
+      "ra_lo": 239.75,
+      "ra_hi": 240.25,
+      "dec_lo": 29.75,
+      "dec_hi": 34.75,
+      "rows": 687,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra08_dec00.sql"
+    },
+    {
+      "i": 8,
+      "j": 1,
+      "ra_lo": 239.75,
+      "ra_hi": 240.25,
+      "dec_lo": 34.75,
+      "dec_hi": 39.75,
+      "rows": 577,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra08_dec01.sql"
+    },
+    {
+      "i": 8,
+      "j": 2,
+      "ra_lo": 239.75,
+      "ra_hi": 240.25,
+      "dec_lo": 39.75,
+      "dec_hi": 44.75,
+      "rows": 568,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra08_dec02.sql"
+    },
+    {
+      "i": 8,
+      "j": 3,
+      "ra_lo": 239.75,
+      "ra_hi": 240.25,
+      "dec_lo": 44.75,
+      "dec_hi": 49.75,
+      "rows": 538,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra08_dec03.sql"
+    },
+    {
+      "i": 8,
+      "j": 4,
+      "ra_lo": 239.75,
+      "ra_hi": 240.25,
+      "dec_lo": 49.75,
+      "dec_hi": 54.75,
+      "rows": 596,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra08_dec04.sql"
+    },
+    {
+      "i": 8,
+      "j": 5,
+      "ra_lo": 239.75,
+      "ra_hi": 240.25,
+      "dec_lo": 54.75,
+      "dec_hi": 59.75,
+      "rows": 388,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra08_dec05.sql"
+    },
+    {
+      "i": 8,
+      "j": 6,
+      "ra_lo": 239.75,
+      "ra_hi": 240.25,
+      "dec_lo": 59.75,
+      "dec_hi": 60.25,
+      "rows": 22,
+      "query_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/region_G/queries/reference_ra08_dec06.sql"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+catalog: sdss
+data_release: SDSS DR17
+row_limit: 50000
+region:
+  ra_min_deg: 120.0
+  ra_max_deg: 240.0
+  dec_min_deg: 0.0
+  dec_max_deg: 60.0
+scientific_filter:
+  classes:
+  - GALAXY
+  - QSO
+  min_redshift: 0.01
+  max_redshift: 5.0
+match_internal:
+  angular_radius_arcsec: 300.0
+  kth_neighbor: 5
+  redshift_radius_arcsec: 600.0
+  dz: 0.05
+optimization:
+  top_k: 1000
+  min_effective_features: 3.0
+  random_seed: 42
+outputs:
+  raw_csv: data/raw/frozen/sdss_raw_frozen.csv
+  processed_csv: data/processed/sdss_features_frozen.csv

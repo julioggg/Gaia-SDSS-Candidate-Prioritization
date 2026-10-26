@@ -1,0 +1,44 @@
+SELECT
+
+    source_id,
+    ra,
+    dec,
+    parallax,
+    parallax_error,
+    pmra,
+    pmdec,
+    phot_g_mean_mag,
+    phot_bp_mean_mag,
+    phot_rp_mean_mag,
+    bp_rp,
+    ruwe,
+    random_index
+
+FROM gaiadr3.gaia_source
+WHERE
+    1 = CONTAINS(
+        POINT('ICRS', ra, dec),
+        CIRCLE(
+            'ICRS',
+            60.0,
+            -30.0,
+            3.0
+        )
+    )
+    AND dec >= -31.5 AND dec < -31.0
+
+    AND ra IS NOT NULL
+    AND dec IS NOT NULL
+    AND phot_g_mean_mag IS NOT NULL
+    AND phot_bp_mean_mag IS NOT NULL
+    AND phot_rp_mean_mag IS NOT NULL
+    AND bp_rp IS NOT NULL
+    AND parallax IS NOT NULL
+    AND parallax_error IS NOT NULL
+    AND pmra IS NOT NULL
+    AND pmdec IS NOT NULL
+    AND ruwe IS NOT NULL
+    AND parallax > 0
+    AND parallax_error > 0
+    AND ruwe < 1.4
+    AND phot_g_mean_mag BETWEEN 8 AND 20

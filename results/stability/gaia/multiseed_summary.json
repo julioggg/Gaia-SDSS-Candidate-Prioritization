@@ -1,0 +1,14 @@
+{
+  "catalog": "gaia",
+  "n_runs": 31,
+  "objective_mean": 0.503560671906418,
+  "objective_std": 4.980329302943085e-06,
+  "neff_mean": 4.1672852900398265,
+  "neff_std": 0.01225669823111928,
+  "entropy_mean": 0.8450168725209821,
+  "entropy_std": 0.0014366638404794021,
+  "topk_jaccard_mean": 0.9787145501252755,
+  "topk_jaccard_min": 0.9512195121951219,
+  "rank_spearman_mean": 0.9997867986258819,
+  "rank_spearman_min": 0.9993380138285367
+}

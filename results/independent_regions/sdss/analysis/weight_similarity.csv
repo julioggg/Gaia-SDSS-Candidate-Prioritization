@@ -1,0 +1,4 @@
+comparison,cosine_weight_similarity,l1_weight_distance
+original_vs_region_A,0.9995639517894808,0.02745396674374382
+original_vs_region_G,0.9999354869330201,0.01044112955604579
+region_A_vs_region_G,0.9998340095178408,0.01709375455422897

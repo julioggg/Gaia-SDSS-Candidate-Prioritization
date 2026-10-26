@@ -1,0 +1,13 @@
+catalog,feature,weight
+Gaia,f_kinematic_interest,0.365351
+Gaia,f_photometric_color_rarity,0.280399
+Gaia,f_absolute_magnitude_rarity,0.223881
+Gaia,f_astrometric_quality,0.079835
+Gaia,f_isolation,0.049941
+Gaia,f_local_density,0.000593
+SDSS,f_redshift_precision,0.345596
+SDSS,f_photometric_quality,0.335678
+SDSS,f_isolation,0.318155
+SDSS,f_color_rarity,0.000519
+SDSS,f_redshift_interest,5.2e-05
+SDSS,f_local_density,6.5e-08

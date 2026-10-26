@@ -1,0 +1,19 @@
+{
+  "name": "region_G",
+  "ra_min": 200.0,
+  "ra_max": 240.0,
+  "dec_min": 30.0,
+  "dec_max": 60.0,
+  "buffer_deg": 0.25,
+  "core_count": 272222,
+  "frozen_n": 50000,
+  "reference_count": 279036,
+  "hashes": {
+    "eligible_population_sha256": "fdf503c3c06a314e5af221312d19fd9c90aa69069c08e039f1ee03a5d030f324",
+    "raw_frozen_sha256": "6e8344ffb254812f189d2d5043994b4796d35f045ff21ddccd7244a06d480f4c",
+    "reference_buffered_sha256": "57945aa3e2c82e4612f9213c338233101c32d975545a2f14eb6ec1a75746055c",
+    "objids_sha256": "c2db74f06086cd593f36686ede8c5e16e14c708d0f127b8f5a72d75acab910f4",
+    "core_manifest_sha256": "4c774c9254a3ea60ca4476eb220d5061fbf0e524df3e42b039c3d1ab100ac78c",
+    "reference_manifest_sha256": "17009baeaa78fe3053c56ac401469fd5904f16076d52a52a45a8b52704ea1f3b"
+  }
+}

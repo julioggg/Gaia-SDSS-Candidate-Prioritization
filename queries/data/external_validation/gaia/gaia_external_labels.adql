@@ -1,0 +1,11 @@
+SELECT
+    source_id,
+    phot_variable_flag,
+    non_single_star,
+    has_epoch_photometry
+FROM gaiadr3.gaia_source
+WHERE
+    1 = CONTAINS(
+        POINT('ICRS', ra, dec),
+        CIRCLE('ICRS', 180.0, 30.0, 3.0)
+    )

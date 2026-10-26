@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated article."
+title: "Reproducible Multivariable Candidate Prioritization in Gaia DR3 and SDSS DR17"
+type: software
+authors:
+  - family-names: "Guerra"
+    given-names: "Julio"
+repository-code: "https://github.com/julioggg/Gaia-SDSS-Candidate-Prioritization"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-10-26"
+keywords:
+  - Gaia DR3
+  - SDSS DR17
+  - astronomy
+  - candidate prioritization
+  - reproducibility
+  - anomaly detection

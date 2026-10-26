@@ -1,0 +1,3 @@
+region,n_targets,n_reference,n_galaxy,n_qso,qso_fraction,percent_with_neighbor_300,percent_with_redshift_neighbor,median_nn_arcsec,median_kth_arcsec,median_neighbor_count,median_redshift_count
+region_A,50000,235389,40369,9631,0.19262,99.288,79.838,98.09928366526898,255.27294675899532,6.0,2.0
+region_G,50000,279036,34611,15389,0.30778,99.83999999999999,76.298,91.11100662366317,236.52965101170213,7.0,2.0

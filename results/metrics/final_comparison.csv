@@ -1,0 +1,3 @@
+catalog,raw_objects,processed_objects,top_k,mean_score_total,mean_score_top,improvement,effective_features,entropy,random_improvement
+Gaia,10000,3842,1000,0.372503,0.545831,1.465,3.689,0.79,1.466
+SDSS,50000,50000,1000,0.526915,0.923728,1.753,3.0,0.615,1.75

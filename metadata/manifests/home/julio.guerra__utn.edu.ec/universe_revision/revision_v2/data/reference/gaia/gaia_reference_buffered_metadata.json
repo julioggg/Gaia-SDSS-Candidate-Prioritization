@@ -1,0 +1,15 @@
+{
+  "catalog": "Gaia DR3",
+  "center_ra_deg": 180.0,
+  "center_dec_deg": 30.0,
+  "core_radius_deg": 3.0,
+  "buffer_deg": 0.1,
+  "reference_radius_deg": 3.1,
+  "neighbor_radius_arcsec": 120.0,
+  "rows_downloaded": 37832,
+  "rows_after_source_id_deduplication": 37832,
+  "duplicate_rows": 0,
+  "duplicate_source_ids": 0,
+  "sha256_csv": "b87db840906cc56303f86f1b9b8af8e3459b134e649e9d3bf2d5b0e1cf35f012",
+  "sha256_query": "3c2269a36f4d9076a244ed3759a122f236a3884f4ee8f47d5bb069070e05ae54"
+}

@@ -1,0 +1,17 @@
+Catalogo: SDSS
+Total objetos procesados: 50000
+Top seleccionados: 1000
+Media score total: 0.526915
+Media score top: 0.923728
+Mejora relativa top/total: 1.753x
+Numero efectivo de variables: 3.000
+Entropia normalizada de pesos: 0.615
+
+Pesos optimizados:
+feature,weight
+f_redshift_precision,0.345596
+f_photometric_quality,0.335678
+f_isolation,0.318155
+f_color_rarity,0.000519
+f_redshift_interest,0.000052
+f_local_density,0.000000065
