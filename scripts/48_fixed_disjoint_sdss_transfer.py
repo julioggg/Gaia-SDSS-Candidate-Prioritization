@@ -240,6 +240,12 @@ def main():
         pd.DataFrame({
             "objid":targets["objid"],"fixed_baseline_score":values
         }).to_csv(OUT/f"{region}_heldout_scores.csv",index=False)
+        # Preserve all frozen-normalized features for independent outcome
+        # evaluation and simple-rule comparators without recomputation.
+        full_cols=["objid","specobjid","class","ra","dec","redshift"]+FEATURES
+        all_features=targets[full_cols].copy()
+        all_features["fixed_baseline_score"]=values
+        all_features.to_csv(OUT/f"{region}_heldout_all_features.csv",index=False)
         rows.append({
             "region":region,"initial_targets":before,
             "excluded_baseline_targets":before-len(targets),
