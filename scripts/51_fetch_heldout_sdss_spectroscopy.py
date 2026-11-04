@@ -88,14 +88,11 @@ def query(sql,attempts,timeout):
     ]
     failures=[]
     for endpoint in endpoints:
-        for method in ("POST","GET"):
+        for method in ("GET",):
             for attempt in range(1,attempts+1):
                 try:
                     payload={"cmd":sql,"format":"csv"}
-                    if method=="POST":
-                        response=requests.post(endpoint,data=payload,timeout=timeout)
-                    else:
-                        response=requests.get(endpoint,params=payload,timeout=timeout)
+                    response=requests.get(endpoint,params=payload,timeout=timeout)
                     if response.status_code in (404,405):
                         failures.append(
                             f"{endpoint} [{method}] HTTP {response.status_code}"
@@ -109,8 +106,12 @@ def query(sql,attempts,timeout):
                         raise ValueError("SkyServer returned HTML instead of CSV")
                     if "error" in txt[:150].lower() and "specobjid" not in txt[:150].lower():
                         raise ValueError(f"Server SQL error: {txt[:350]}")
+                    # SkyServerWS CSV includes a metadata line '#Table1'
+                    # before the actual CSV header. Treat it as a comment,
+                    # never as a column name. Preserve 64-bit IDs as strings.
                     result=pd.read_csv(
                         io.StringIO(txt),
+                        comment="#",
                         dtype={"specobjid":"string","bestobjid":"string"}
                     )
                     if not {"specobjid","bestobjid","snMedian"}.issubset(
