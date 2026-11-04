@@ -171,7 +171,7 @@ def run_catalog(catalog, top_k, override):
         }
         for i, feature in enumerate(features)
     ]).to_csv(OUT / f"{catalog}_simple_rules_weights.csv", index=False)
-    print(f"\\n{catalog.upper()} | n={n:,} | k={k:,}")
+    print(f"\n{catalog.upper()} | n={n:,} | k={k:,}")
     print(f"Feature source: {cfg['matrix']}")
     print(f"Optimized weights: {weight_file}")
     print(df[[
@@ -200,17 +200,17 @@ def main():
         OUT / "simple_rules_all_metrics.csv", index=False
     )
     (OUT / "README.txt").write_text(
-        "Reviewer round-2 descriptive simple-ranking comparators.\\n"
-        "All methods operate on the same frozen feature matrix per catalog.\\n"
-        "Ranking agreement, top-K overlap and common-optimized-score diagnostics\\n"
-        "are INTERNAL comparisons, not independent downstream utility.\\n"
-        "Timing measures scoring alone (five repetitions), excluding data acquisition,\\n"
-        "feature engineering and evolutionary weight fitting.\\n"
-        "For an astronomical-use claim, add an independent outcome endpoint and\\n"
-        "full-pipeline computational cost in a separate experiment.\\n",
+        "Reviewer round-2 descriptive simple-ranking comparators.\n"
+        "All methods operate on the same frozen feature matrix per catalog.\n"
+        "Ranking agreement, top-K overlap and common-optimized-score diagnostics\n"
+        "are INTERNAL comparisons, not independent downstream utility.\n"
+        "Timing measures scoring alone (five repetitions), excluding data acquisition,\n"
+        "feature engineering and evolutionary weight fitting.\n"
+        "For an astronomical-use claim, add an independent outcome endpoint and\n"
+        "full-pipeline computational cost in a separate experiment.\n",
         encoding="utf-8",
     )
-    print("\\nSaved to:", OUT, flush=True)
+    print("\nSaved to:", OUT, flush=True)
 
 
 if __name__ == "__main__":
