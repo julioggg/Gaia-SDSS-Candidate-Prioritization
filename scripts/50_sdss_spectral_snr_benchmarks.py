@@ -25,7 +25,6 @@ import numpy as np
 import pandas as pd
 from scipy.stats import spearmanr
 from sklearn.metrics import roc_auc_score,average_precision_score
-from statsmodels.stats.proportion import proportion_confint
 
 ROOT=Path.home()/"universe_revision"/"revision_v2"
 FEATURE_FILE=ROOT/"data/processed/sdss_features_reference.csv"
@@ -99,8 +98,13 @@ def methods(x):
 
 
 def ci_for_precision(hits,k):
-    lo,hi=proportion_confint(hits,k,alpha=0.05,method="wilson")
-    return float(lo),float(hi)
+    # Wilson 95% score interval, no additional package required.
+    z=1.959963984540054
+    phat=hits/k
+    denom=1.0+z*z/k
+    center=(phat+z*z/(2.0*k))/denom
+    radius=z*np.sqrt(phat*(1.0-phat)/k+z*z/(4.0*k*k))/denom
+    return float(max(0.0,center-radius)),float(min(1.0,center+radius))
 
 
 def metrics(df,score,cut,top_frac,method,cls):
