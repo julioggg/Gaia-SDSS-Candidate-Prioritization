@@ -6,7 +6,7 @@ Match by *specobjid* AND confirm SDSS SpecObj.bestobjid = target objid.
 Preserve chunk files; rerunning resumes completed SQL batches.
 Never silently drop missing matches; report exact coverage for each region.
 
-Requires astroquery installed and CEDIA outgoing network access.
+Requires requests installed and CEDIA outgoing network access.
 This script only RETRIEVES independent outcome measurements; EXP52 evaluates
 rankings with frozen baseline parameters.
 """
@@ -77,25 +77,65 @@ def sql_for(ids):
 
 
 def query(sql,attempts,timeout):
-    from astroquery.sdss import SDSS
-    last=None
-    for attempt in range(1,attempts+1):
-        try:
-            table=SDSS.query_sql(sql,data_release=17,timeout=timeout)
-            if table is None:
-                return pd.DataFrame(columns=COLS)
-            return table.to_pandas()
-        except Exception as e:
-            last=e
-            print(f"    failed {attempt}/{attempts}: {e}",flush=True)
-            if attempt<attempts:
-                time.sleep(min(30,5*attempt))
-    raise RuntimeError(f"SDSS DR17 query failed: {last}")
+    # The older astroquery DR17 endpoint /en/tools/search/x_results.aspx
+    # currently returns HTTP 404. Use the documented SkyServerWS service.
+    import io
+    import requests
 
+    endpoints=[
+        "https://skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch",
+        "https://preprod.skyserver.sdss.org/dr17/SkyServerWS/SearchTools/SqlSearch",
+    ]
+    failures=[]
+    for endpoint in endpoints:
+        for method in ("POST","GET"):
+            for attempt in range(1,attempts+1):
+                try:
+                    payload={"cmd":sql,"format":"csv"}
+                    if method=="POST":
+                        response=requests.post(endpoint,data=payload,timeout=timeout)
+                    else:
+                        response=requests.get(endpoint,params=payload,timeout=timeout)
+                    if response.status_code in (404,405):
+                        failures.append(
+                            f"{endpoint} [{method}] HTTP {response.status_code}"
+                        )
+                        break
+                    response.raise_for_status()
+                    txt=response.text.lstrip("\ufeff").strip()
+                    if not txt:
+                        raise ValueError("SkyServer returned an empty CSV response")
+                    if txt.startswith("<") or "<html" in txt[:200].lower():
+                        raise ValueError("SkyServer returned HTML instead of CSV")
+                    if "error" in txt[:150].lower() and "specobjid" not in txt[:150].lower():
+                        raise ValueError(f"Server SQL error: {txt[:350]}")
+                    result=pd.read_csv(
+                        io.StringIO(txt),
+                        dtype={"specobjid":"string","bestobjid":"string"}
+                    )
+                    if not {"specobjid","bestobjid","snMedian"}.issubset(
+                        result.columns
+                    ):
+                        raise ValueError(
+                            f"Unexpected SkyServer columns: {list(result.columns)}; "
+                            f"response: {txt[:250]}"
+                        )
+                    return result
+                except (requests.RequestException,ValueError,pd.errors.ParserError) as e:
+                    desc=f"{endpoint} [{method}] attempt {attempt}/{attempts}: {str(e)[:250]}"
+                    failures.append(desc)
+                    print("    "+desc,flush=True)
+                    if attempt<attempts:
+                        time.sleep(min(15,3*attempt))
+    raise RuntimeError(
+        "All SDSS DR17 SkyServerWS SQL endpoints failed. "
+        "Check CEDIA network/proxy and API status. Recent failures: "
+        + " | ".join(failures[-8:])
+    )
 
 def main():
     p=argparse.ArgumentParser()
-    p.add_argument("--batch-size",type=int,default=300)
+    p.add_argument("--batch-size",type=int,default=100)
     p.add_argument("--attempts",type=int,default=3)
     p.add_argument("--timeout",type=int,default=600)
     p.add_argument("--max-batches",type=int,default=0,
