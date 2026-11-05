@@ -54,7 +54,8 @@ def fit_params(series):
             "hi":float(np.quantile(a,0.99))}
 
 def normalize(series,params,reverse=False):
-    a=pd.to_numeric(series,errors="coerce").to_numpy(float)
+    # Accept both pandas Series and NumPy arrays (color/magnitude deviations).
+    a=np.asarray(pd.to_numeric(series,errors="coerce"),dtype=float)
     a=np.where(np.isfinite(a),a,params["median"])
     lo,hi=params["lo"],params["hi"]
     x=np.clip((np.clip(a,lo,hi)-lo)/(hi-lo),0,1) if hi>lo else np.zeros(len(a))
