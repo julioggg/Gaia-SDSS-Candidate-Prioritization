@@ -1,0 +1,40 @@
+{
+  "experiment": 50,
+  "type": "EXPLORATORY external spectroscopic signal-to-noise audit",
+  "input_sha256": {
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/sdss_features_reference.csv": "a3080bfe9007127f0a4087efa09a59b160aea0b1510bb33671203551f025f01a",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/sdss/sdss_external_labels_exact.csv": "d953c1ddce232b442e2d819ca774736ab1ad089394a6e1716fb7e9e4b48e5d33",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_v2/sdss/metrics/weights_sdss.csv": "8ee4ad132050e26628190ba9ee4d2189a457fe227438f430ba0c2e74ff4c3b20"
+  },
+  "outcome": "SDSS DR17 external snMedian (spectroscopic S/N)",
+  "thresholds_exploratory_after_experiment49_distribution_review": [
+    5.0,
+    10.0
+  ],
+  "top_fraction": 0.1,
+  "paired_bootstrap_reps": 500,
+  "bootstrap_seed": 20261104,
+  "model_features": [
+    "f_photometric_quality",
+    "f_color_rarity",
+    "f_redshift_interest",
+    "f_redshift_precision",
+    "f_local_density",
+    "f_isolation"
+  ],
+  "canonical_weights": {
+    "f_photometric_quality": 0.3340450213471885,
+    "f_color_rarity": 1.6871176375476597e-05,
+    "f_redshift_interest": 1.1316559001414842e-05,
+    "f_redshift_precision": 0.3322346229489074,
+    "f_local_density": 1.6652770355569455e-06,
+    "f_isolation": 0.3336905026914916
+  },
+  "limitations": [
+    "S/N is not a ranking feature, but is observationally correlated with features.",
+    "Same objects as unsupervised feature-weight optimization; not external object validation.",
+    "Thresholds were defined after inspecting spectral S/N distributions in experiment 49.",
+    "No multiplicity correction; bootstrap CI exploratory.",
+    "Do not claim value over fixed-three comparator unless outcome metrics support it."
+  ]
+}

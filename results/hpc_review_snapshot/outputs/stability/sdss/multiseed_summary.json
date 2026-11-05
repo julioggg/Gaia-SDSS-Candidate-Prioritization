@@ -1,0 +1,14 @@
+{
+  "catalog": "sdss",
+  "n_runs": 31,
+  "objective_mean": 0.6525430966173703,
+  "objective_std": 0.00838779664411751,
+  "neff_mean": 3.000814035023214,
+  "neff_std": 0.003378666843104159,
+  "entropy_mean": 0.6158914867766316,
+  "entropy_std": 0.007989154260178793,
+  "topk_jaccard_mean": 0.9022310335654486,
+  "topk_jaccard_min": 0.013684744044602128,
+  "rank_spearman_mean": 0.907571605301562,
+  "rank_spearman_min": 0.040697274449046916
+}

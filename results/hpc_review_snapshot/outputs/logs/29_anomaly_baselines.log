@@ -1,0 +1,76 @@
+
+==========================================================================================
+DATASET: GAIA
+==========================================================================================
+N: 5,205
+Features: ['f_astrometric_quality', 'f_photometric_color_rarity', 'f_absolute_magnitude_rarity', 'f_kinematic_interest', 'f_local_density', 'f_isolation']
+
+Isolation Forest...
+Local Outlier Factor...
+PCA + Mahalanobis...
+
+Baseline top-K overlaps:
+       method_a        method_b  intersection_topk  jaccard_topk
+IsolationForest             LOF                601      0.429593
+IsolationForest PCA_Mahalanobis                813      0.684920
+            LOF PCA_Mahalanobis                677      0.511716
+
+==========================================================================================
+DATASET: SDSS_MIXED
+==========================================================================================
+N: 50,000
+Features: ['f_photometric_quality', 'f_color_rarity', 'f_redshift_interest', 'f_redshift_precision', 'f_local_density', 'f_isolation']
+
+Isolation Forest...
+Local Outlier Factor...
+PCA + Mahalanobis...
+
+Baseline top-K overlaps:
+       method_a        method_b  intersection_topk  jaccard_topk
+IsolationForest             LOF                120      0.063830
+IsolationForest PCA_Mahalanobis                457      0.296176
+            LOF PCA_Mahalanobis                107      0.056524
+
+==========================================================================================
+DATASET: SDSS_GALAXY
+==========================================================================================
+N: 38,360
+Features: ['f_photometric_quality', 'f_color_rarity', 'f_redshift_interest', 'f_redshift_precision', 'f_local_density', 'f_isolation']
+
+Isolation Forest...
+Local Outlier Factor...
+PCA + Mahalanobis...
+
+Baseline top-K overlaps:
+       method_a        method_b  intersection_topk  jaccard_topk
+IsolationForest             LOF                167      0.091107
+IsolationForest PCA_Mahalanobis                528      0.358696
+            LOF PCA_Mahalanobis                192      0.106195
+
+==========================================================================================
+DATASET: SDSS_QSO
+==========================================================================================
+N: 11,640
+Features: ['f_photometric_quality', 'f_color_rarity', 'f_redshift_interest', 'f_redshift_precision', 'f_local_density', 'f_isolation']
+
+Isolation Forest...
+Local Outlier Factor...
+PCA + Mahalanobis...
+
+Baseline top-K overlaps:
+       method_a        method_b  intersection_topk  jaccard_topk
+IsolationForest             LOF                349      0.211387
+IsolationForest PCA_Mahalanobis                810      0.680672
+            LOF PCA_Mahalanobis                327      0.195457
+
+====================================================================================================
+ANOMALY BASELINE SUMMARY
+====================================================================================================
+    dataset  n_objects  n_features  if_seed_rank_correlation_mean  if_seed_rank_correlation_min  pca_variance_pc1  pca_variance_first3
+       gaia       5205           6                       0.993709                      0.992526          0.289883             0.724762
+ sdss_mixed      50000           6                       0.991510                      0.991387          0.354343             0.785662
+sdss_galaxy      38360           6                       0.985667                      0.984322          0.454653             0.830222
+   sdss_qso      11640           6                       0.991069                      0.989836          0.333613             0.763347
+
+Saved to: outputs/anomaly_baselines
+DONE.

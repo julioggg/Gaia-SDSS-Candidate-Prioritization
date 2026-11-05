@@ -1,0 +1,4 @@
+method_a,method_b,intersection_topk,jaccard_topk
+IsolationForest,LOF,349,0.2113870381586917
+IsolationForest,PCA_Mahalanobis,810,0.680672268907563
+LOF,PCA_Mahalanobis,327,0.1954572624028691

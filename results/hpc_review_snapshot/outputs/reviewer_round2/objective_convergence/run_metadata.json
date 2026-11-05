@@ -1,0 +1,49 @@
+{
+  "experiment": 45,
+  "matrix_path": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/sdss_features_reference.csv",
+  "feature_json": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/sdss_feature_columns_reference.json",
+  "canonical_weights_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_v2/sdss/metrics/weights_sdss.csv",
+  "top_k": 1000,
+  "seeds": [
+    42,
+    7,
+    123
+  ],
+  "scenarios": [
+    "full",
+    "no_entropy",
+    "no_concentration",
+    "no_entropy_no_concentration"
+  ],
+  "maxiter": 500,
+  "popsize": 20,
+  "tol": 0.0001,
+  "min_eff": 3.0,
+  "coefficients": {
+    "full": [
+      0.55,
+      0.2,
+      0.2,
+      0.25
+    ],
+    "no_entropy": [
+      0.55,
+      0.2,
+      0.0,
+      0.25
+    ],
+    "no_concentration": [
+      0.55,
+      0.2,
+      0.2,
+      0.0
+    ],
+    "no_entropy_no_concentration": [
+      0.55,
+      0.2,
+      0.0,
+      0.0
+    ]
+  },
+  "note": "Do not report runs with optimizer_success=False as converged"
+}

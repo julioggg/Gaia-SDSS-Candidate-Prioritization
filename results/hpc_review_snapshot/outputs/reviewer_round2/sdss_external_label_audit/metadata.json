@@ -1,0 +1,24 @@
+{
+  "experiment": 57,
+  "definitions": {
+    "GALAXY": "nonempty subclass contains AGN or BROADLINE",
+    "QSO": "nonempty subclass does not equal BROADLINE"
+  },
+  "missing_subclass": "excluded before score evaluation",
+  "score": "descending, large means high priority",
+  "bootstrap_reps": 500,
+  "seed": 20261105,
+  "source_hashes": {
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/sdss/sdss_external_labels_exact.csv": "d953c1ddce232b442e2d819ca774736ab1ad089394a6e1716fb7e9e4b48e5d33",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/sdss_features_reference.csv": "a3080bfe9007127f0a4087efa09a59b160aea0b1510bb33671203551f025f01a",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/class_specific/sdss/GALAXY/ranked_galaxy.csv": "a2e670931e78404c9e7f424820096fa8189fd6f93099cf182228d0c9637c66bb",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/class_specific/sdss/QSO/ranked_qso.csv": "4ce246236ff795c5b9fb5a2c78734f958172a1f70b56445350ddfa05d3efed1b"
+  },
+  "caveats": [
+    "Class-specific rankings rather than mixed SDSS ranking",
+    "Noncanonical QSO is metadata-based and is not confirmed astrophysical novelty",
+    "Labels missing from subclass are excluded, which induces possible selection bias",
+    "Bootstrap does not correct spatial dependence or catalog selection",
+    "Inverse AUC is solely a coding/orientation diagnostic, not a proposed classifier"
+  ]
+}

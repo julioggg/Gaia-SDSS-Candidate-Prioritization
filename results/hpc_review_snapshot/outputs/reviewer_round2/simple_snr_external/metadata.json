@@ -1,0 +1,28 @@
+{
+  "experiment": 58,
+  "top_fraction": 0.1,
+  "timing_repeats": 15,
+  "feature_names": [
+    "f_photometric_quality",
+    "f_color_rarity",
+    "f_redshift_interest",
+    "f_redshift_precision",
+    "f_local_density",
+    "f_isolation"
+  ],
+  "source_sha256": {
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/heldout_spectroscopy/region_external_spectroscopic_labels.csv": "5af1316178ad08df9d9107297f7b45afe5f3777a8e99b9a6131ee04161cae06e",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_v2/sdss/metrics/weights_sdss.csv": "8ee4ad132050e26628190ba9ee4d2189a457fe227438f430ba0c2e74ff4c3b20",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/disjoint_fixed_transfer/region_A_heldout_all_features.csv": "6c6d6d00cbd88550318ec15e8b9e099ca4ce635df72d7f7b53242b0357c8bcdb",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/disjoint_fixed_transfer/region_G_heldout_all_features.csv": "51ae6f82bb0babd5f1a3c50398adb04ff50baea9ae08405d4e9ee2a9d7630c28"
+  },
+  "limitations": [
+    "SNR thresholds exploratory and selected after analysis 49",
+    "All evaluation restricted to observed SDSS spectra; not physical discovery",
+    "Regional objects disjoint but reference populations overlap",
+    "Scoring times do not include preprocessing, data acquisition or evolutionary optimization",
+    "No tuning of comparators to external SNR labels",
+    "Arithmetic rules can be externally superior without justifying the original geometric objective",
+    "Comparisons are performed separately for class and region; no pooled independence claim"
+  ]
+}

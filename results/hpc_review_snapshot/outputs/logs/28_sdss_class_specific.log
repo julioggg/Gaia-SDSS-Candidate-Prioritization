@@ -1,0 +1,185 @@
+========================================================================================
+SDSS CLASS-SPECIFIC ANALYSIS
+========================================================================================
+Targets total: 50,000
+Reference total: 1,732,110
+
+========================================================================================
+CLASS: GALAXY
+========================================================================================
+Targets: 38,360
+Reference: 1,327,175
+Building BallTree...
+  targets:   38,360
+  reference: 1,327,175
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/38,360  processed 4,000/38,360  processed 6,000/38,360  processed 8,000/38,360  processed 10,000/38,360  processed 12,000/38,360  processed 14,000/38,360  processed 16,000/38,360  processed 18,000/38,360  processed 20,000/38,360  processed 22,000/38,360  processed 24,000/38,360  processed 26,000/38,360  processed 28,000/38,360  processed 30,000/38,360  processed 32,000/38,360  processed 34,000/38,360  processed 36,000/38,360  processed 38,000/38,360  processed 38,360/38,360
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/38,360  processed 4,000/38,360  processed 6,000/38,360  processed 8,000/38,360  processed 10,000/38,360  processed 12,000/38,360  processed 14,000/38,360  processed 16,000/38,360  processed 18,000/38,360  processed 20,000/38,360  processed 22,000/38,360  processed 24,000/38,360  processed 26,000/38,360  processed 28,000/38,360  processed 30,000/38,360  processed 32,000/38,360  processed 34,000/38,360  processed 36,000/38,360  processed 38,000/38,360  processed 38,360/38,360
+
+% angular neighbor <=300": 98.65%
+% similar-z neighbor <=600": 90.04%
+Median NN: 105.740"
+Median kth: 283.357"
+Median N<=300": 5.0
+Median similar-z N<=600": 3.0
+
+Optimizing seed=0
+objective: 0.644310
+N_eff: 3.0000
+weights:
+              feature   weight
+ f_redshift_precision 0.345156
+f_photometric_quality 0.344421
+          f_isolation 0.309149
+       f_color_rarity 0.001246
+      f_local_density 0.000022
+  f_redshift_interest 0.000006
+
+Optimizing seed=1
+objective: 0.644280
+N_eff: 3.0000
+weights:
+              feature   weight
+f_photometric_quality 0.350367
+ f_redshift_precision 0.347857
+          f_isolation 0.299275
+       f_color_rarity 0.002490
+      f_local_density 0.000007
+  f_redshift_interest 0.000004
+
+Optimizing seed=2
+objective: 0.644310
+N_eff: 3.0000
+weights:
+              feature   weight
+ f_redshift_precision 0.345192
+f_photometric_quality 0.344392
+          f_isolation 0.309142
+       f_color_rarity 0.001250
+      f_local_density 0.000020
+  f_redshift_interest 0.000005
+
+Optimizing seed=42
+objective: 0.644284
+N_eff: 3.0000
+weights:
+              feature   weight
+f_photometric_quality 0.348298
+ f_redshift_precision 0.347079
+          f_isolation 0.302578
+       f_color_rarity 0.002033
+      f_local_density 0.000009
+  f_redshift_interest 0.000003
+
+========================================================================================
+CLASS: QSO
+========================================================================================
+Targets: 11,640
+Reference: 404,935
+Building BallTree...
+  targets:   11,640
+  reference: 404,935
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/11,640  processed 4,000/11,640  processed 6,000/11,640  processed 8,000/11,640  processed 10,000/11,640  processed 11,640/11,640
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/11,640  processed 4,000/11,640  processed 6,000/11,640  processed 8,000/11,640  processed 10,000/11,640  processed 11,640/11,640
+
+% angular neighbor <=300": 79.26%
+% similar-z neighbor <=600": 28.14%
+Median NN: 187.328"
+Median kth: 470.783"
+Median N<=300": 2.0
+Median similar-z N<=600": 0.0
+
+Optimizing seed=0
+objective: 0.621700
+N_eff: 3.0000
+weights:
+              feature   weight
+f_photometric_quality 0.366812
+ f_redshift_precision 0.362460
+  f_redshift_interest 0.259379
+          f_isolation 0.011271
+      f_local_density 0.000074
+       f_color_rarity 0.000004
+
+Optimizing seed=1
+objective: 0.621700
+N_eff: 3.0000
+weights:
+              feature   weight
+f_photometric_quality 0.366769
+ f_redshift_precision 0.362512
+  f_redshift_interest 0.259364
+          f_isolation 0.011276
+      f_local_density 0.000071
+       f_color_rarity 0.000008
+
+Optimizing seed=2
+objective: 0.621700
+N_eff: 3.0000
+weights:
+              feature   weight
+f_photometric_quality 0.366751
+ f_redshift_precision 0.362523
+  f_redshift_interest 0.259378
+          f_isolation 0.011276
+      f_local_density 0.000069
+       f_color_rarity 0.000002
+
+Optimizing seed=42
+objective: 0.621696
+N_eff: 3.0001
+weights:
+              feature   weight
+f_photometric_quality 0.367064
+ f_redshift_precision 0.362189
+  f_redshift_interest 0.259376
+          f_isolation 0.011268
+      f_local_density 0.000092
+       f_color_rarity 0.000010
+
+====================================================================================================
+CLASS-SPECIFIC SUMMARY
+====================================================================================================
+ class  n_targets  n_reference  pct_angular_neighbor  pct_redshift_neighbor  median_nn_arcsec  median_kth_arcsec  median_neighbor_count  median_redshift_neighbor_count  objective_seed42  neff_seed42  mean_seed_jaccard  min_seed_jaccard  mean_seed_spearman  min_seed_spearman
+GALAXY      38360      1327175             98.652242              90.041710        105.740321         283.356938                    5.0                             3.0          0.644284     3.000000           0.992051          0.986097            0.999938           0.999891
+   QSO      11640       404935             79.261168              28.135739        187.327594         470.782619                    2.0                             0.0          0.621696     3.000119           1.000000          1.000000            1.000000           1.000000
+
+====================================================================================================
+SEED-42 WEIGHT COMPARISON
+====================================================================================================
+class                    GALAXY       QSO  QSO_minus_GALAXY
+feature                                                    
+f_color_rarity         0.002033  0.000010         -0.002023
+f_isolation            0.302578  0.011268         -0.291310
+f_local_density        0.000009  0.000092          0.000083
+f_photometric_quality  0.348298  0.367064          0.018766
+f_redshift_interest    0.000003  0.259376          0.259373
+f_redshift_precision   0.347079  0.362189          0.015110
+
+====================================================================================================
+ALL-SEED WEIGHT SUMMARY
+====================================================================================================
+                                  mean       std       min       max
+class  feature                                                      
+GALAXY f_color_rarity         0.001755  0.000614  0.001246  0.002490
+       f_isolation            0.305036  0.004933  0.299275  0.309149
+       f_local_density        0.000015  0.000008  0.000007  0.000022
+       f_photometric_quality  0.346870  0.002967  0.344392  0.350367
+       f_redshift_interest    0.000004  0.000001  0.000003  0.000006
+       f_redshift_precision   0.346321  0.001362  0.345156  0.347857
+QSO    f_color_rarity         0.000006  0.000003  0.000002  0.000010
+       f_isolation            0.011273  0.000004  0.011268  0.011276
+       f_local_density        0.000077  0.000011  0.000069  0.000092
+       f_photometric_quality  0.366849  0.000146  0.366751  0.367064
+       f_redshift_interest    0.259374  0.000007  0.259364  0.259379
+       f_redshift_precision   0.362421  0.000157  0.362189  0.362523
+
+Saved to: outputs/class_specific/sdss
+DONE.

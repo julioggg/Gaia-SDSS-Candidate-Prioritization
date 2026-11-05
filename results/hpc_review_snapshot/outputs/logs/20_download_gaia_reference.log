@@ -1,0 +1,31 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+==============================================================================
+GAIA DR3 BUFFERED REFERENCE DOWNLOAD
+==============================================================================
+Core radius: 3.0 deg
+Buffer: 0.1 deg
+Reference radius: 3.1 deg
+
+Submitting asynchronous Gaia query...
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 37,832
+
+==============================================================================
+GAIA REFERENCE POOL COMPLETE
+==============================================================================
+Rows downloaded: 37,832
+Unique source_id: 37,832
+Duplicate source_id rows: 0
+
+RA range: 176.42537210642845 to 183.57227778385246
+Dec range: 26.901777780765336 to 33.09068623187178
+
+Output:
+  /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/reference/gaia/gaia_reference_buffered.csv
+
+SHA256:
+  b87db840906cc56303f86f1b9b8af8e3459b134e649e9d3bf2d5b0e1cf35f012
+
+Query:
+  /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/reference/gaia/gaia_reference_buffered.adql
+DONE.

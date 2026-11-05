@@ -1,0 +1,74 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+==========================================================================================
+GAIA EXTENDED EXTERNAL LABEL RETRIEVAL
+==========================================================================================
+Targets: 5205
+Chunk 0-400
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 400-800
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 800-1,200
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 1,200-1,600
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 1,600-2,000
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 2,000-2,400
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 2,400-2,800
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 2,800-3,200
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 3,200-3,600
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 3,600-4,000
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 4,000-4,400
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 4,400-4,800
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 4,800-5,200
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 400
+Chunk 5,200-5,205
+INFO: Query finished. [astroquery.utils.tap.core]
+  returned: 5
+
+==========================================================================================
+GAIA EXTENDED LABEL AUDIT
+==========================================================================================
+Targets: 5205
+Returned: 5205
+Missing: 0
+Extra: 0
+
+label_variable                         70 (  1.345%)
+label_nss                               2 (  0.038%)
+label_qso_candidate                     4 (  0.077%)
+label_galaxy_candidate                  9 (  0.173%)
+label_extragalactic_candidate          13 (  0.250%)
+label_dsc_quasar_050                    2 (  0.038%)
+label_dsc_galaxy_050                    7 (  0.134%)
+label_dsc_extragalactic_050             9 (  0.173%)
+label_dsc_nonstar_050                  58 (  1.114%)
+
+DSC probability non-null counts:
+classprob_dsc_combmod_quasar        5203
+classprob_dsc_combmod_galaxy        5203
+classprob_dsc_combmod_star          5203
+
+SHA256: 0f8dabb739377e6f0038b0dff0bbe08f78f4e75f5377d204bb414ae53e499930
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/gaia/gaia_extended_external_labels_exact.csv
+DONE.

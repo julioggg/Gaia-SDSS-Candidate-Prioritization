@@ -1,0 +1,7 @@
+feature,weight
+f_kinematic_interest,0.3158624864969976
+f_photometric_color_rarity,0.27712248260053024
+f_absolute_magnitude_rarity,0.20338453492639674
+f_isolation,0.1251087154926047
+f_astrometric_quality,0.074616793345987
+f_local_density,0.0039049871374837795

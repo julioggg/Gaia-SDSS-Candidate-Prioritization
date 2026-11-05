@@ -1,0 +1,104 @@
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+========================================================================
+SDSS DR17 BUFFERED REFERENCE POOL
+========================================================================
+RA chunks: 25
+Expected global count: 1732111
+
+[01/25] Downloading RA 119.5-124.5...
+  rows: 66,677
+[02/25] Downloading RA 124.5-129.5...
+  rows: 74,551
+[03/25] Downloading RA 129.5-134.5...
+  rows: 81,249
+[04/25] Downloading RA 134.5-139.5...
+  rows: 78,488
+[05/25] Downloading RA 139.5-144.5...
+  rows: 75,521
+[06/25] Downloading RA 144.5-149.5...
+  rows: 76,855
+[07/25] Downloading RA 149.5-154.5...
+  rows: 76,184
+[08/25] Downloading RA 154.5-159.5...
+  rows: 78,819
+[09/25] Downloading RA 159.5-164.5...
+  rows: 74,884
+[10/25] Downloading RA 164.5-169.5...
+  rows: 72,550
+[11/25] Downloading RA 169.5-174.5...
+  rows: 71,704
+[12/25] Downloading RA 174.5-179.5...
+  rows: 72,498
+[13/25] Downloading RA 179.5-184.5...
+  rows: 71,659
+[14/25] Downloading RA 184.5-189.5...
+  rows: 69,130
+[15/25] Downloading RA 189.5-194.5...
+  rows: 67,899
+[16/25] Downloading RA 194.5-199.5...
+  rows: 68,788
+[17/25] Downloading RA 199.5-204.5...
+  rows: 68,084
+[18/25] Downloading RA 204.5-209.5...
+  rows: 68,486
+[19/25] Downloading RA 209.5-214.5...
+  rows: 67,345
+[20/25] Downloading RA 214.5-219.5...
+  rows: 70,628
+[21/25] Downloading RA 219.5-224.5...
+  rows: 69,028
+[22/25] Downloading RA 224.5-229.5...
+  rows: 67,581
+[23/25] Downloading RA 229.5-234.5...
+  rows: 66,920
+[24/25] Downloading RA 234.5-239.5...
+  rows: 63,731
+[25/25] Downloading RA 239.5-240.5...
+  rows: 12,852
+
+Combining chunks...
+Rows before duplicate check: 1,732,111
+Unique objid: 1,732,110
+Unique specobjid: 1,732,111
+Duplicated objid: 1
+Duplicated specobjid: 0
+
+FINAL REFERENCE POOL
+Rows: 1,732,110
+GALAXY: 1,327,175
+QSO: 404,935
+RA: 119.500198839778 240.499953058508
+Dec: -0.249918096131293 60.2499865647258
+
+File: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/reference/sdss/sdss_reference_buffered.csv
+SHA256: d8d327d1f24acf39b6e33ccbb9309953e49525f79b90fc701b48ac14b663f7cf
+
+WARNING:
+Pre-count was 1,732,111, but final unique pool has 1,732,110 rows.
+This is not automatically an error; inspect duplicates and query timing.
+
+DONE.

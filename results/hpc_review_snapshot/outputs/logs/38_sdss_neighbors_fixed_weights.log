@@ -1,0 +1,99 @@
+========================================================================================================================
+SDSS FIXED-WEIGHT NEIGHBOR SENSITIVITY
+========================================================================================================================
+
+Frozen baseline weights:
+f_photometric_quality          0.397182756
+f_color_rarity                 0.005513997
+f_redshift_interest            0.331923796
+f_redshift_precision           0.252020845
+f_local_density                0.000018615
+f_isolation                    0.013339992
+
+========================================================================================================================
+r600_k5_rz600_dz005
+========================================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+Spearman vs baseline: 0.999999998
+Top-1000 overlap: 998
+Top-1000 Jaccard: 0.996007984
+Mean absolute feature changes:
+  f_photometric_quality          0.000000000
+  f_color_rarity                 0.000000000
+  f_redshift_interest            0.000000000
+  f_redshift_precision           0.000000000
+  f_local_density                0.029311831
+  f_isolation                    0.000000000
+
+========================================================================================================================
+r300_k3_rz600_dz005
+========================================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+Spearman vs baseline: 0.999999999
+Top-1000 overlap: 1000
+Top-1000 Jaccard: 1.000000000
+Mean absolute feature changes:
+  f_photometric_quality          0.000000000
+  f_color_rarity                 0.000000000
+  f_redshift_interest            0.000000000
+  f_redshift_precision           0.000000000
+  f_local_density                0.039334764
+  f_isolation                    0.000000000
+
+========================================================================================================================
+r300_k5_rz600_dz010
+========================================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+Spearman vs baseline: 0.999999999
+Top-1000 overlap: 1000
+Top-1000 Jaccard: 1.000000000
+Mean absolute feature changes:
+  f_photometric_quality          0.000000000
+  f_color_rarity                 0.000000000
+  f_redshift_interest            0.000000000
+  f_redshift_precision           0.000000000
+  f_local_density                0.017250867
+  f_isolation                    0.000000000
+
+================================================================================================================================================================
+FIXED-WEIGHT SUMMARY
+================================================================================================================================================================
+             config  spearman_fixed_weights  top1000_overlap_fixed_weights  top1000_jaccard_fixed_weights
+r600_k5_rz600_dz005                     1.0                            998                       0.996008
+r300_k3_rz600_dz005                     1.0                           1000                       1.000000
+r300_k5_rz600_dz010                     1.0                           1000                       1.000000
+
+================================================================================================================================================================
+FEATURE CHANGE SUMMARY
+================================================================================================================================================================
+             config  spearman_fixed_weights  top1000_overlap_fixed_weights  top1000_jaccard_fixed_weights  mean_abs_diff_f_photometric_quality  mean_abs_diff_f_color_rarity  mean_abs_diff_f_redshift_interest  mean_abs_diff_f_redshift_precision  mean_abs_diff_f_local_density  mean_abs_diff_f_isolation
+r600_k5_rz600_dz005                     1.0                            998                       0.996008                         2.274901e-17                  3.010451e-17                       2.836127e-17                        3.079934e-17                       0.029312               2.458258e-17
+r300_k3_rz600_dz005                     1.0                           1000                       1.000000                         2.274901e-17                  3.010451e-17                       2.836127e-17                        3.079934e-17                       0.039335               2.458258e-17
+r300_k5_rz600_dz010                     1.0                           1000                       1.000000                         2.274901e-17                  3.010451e-17                       2.836127e-17                        3.079934e-17                       0.017251               2.458258e-17
+
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss_neighbors_fixed_weights
+DONE.

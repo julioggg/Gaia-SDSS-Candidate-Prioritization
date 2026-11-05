@@ -1,0 +1,229 @@
+
+==============================================================================================================
+baseline_r300_k5_rz600_dz005
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7240954769317426
+Neff: 3.015223421139818
+weights:
+  f_photometric_quality          0.397183
+  f_color_rarity                 0.005514
+  f_redshift_interest            0.331924
+  f_redshift_precision           0.252021
+  f_local_density                0.000019
+  f_isolation                    0.013340
+
+==============================================================================================================
+r150_k5_rz600_dz005
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7235261693744167
+Neff: 3.0151584164434992
+weights:
+  f_photometric_quality          0.397212
+  f_color_rarity                 0.005528
+  f_redshift_interest            0.331889
+  f_redshift_precision           0.252036
+  f_local_density                0.000005
+  f_isolation                    0.013330
+
+==============================================================================================================
+r600_k5_rz600_dz005
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.743509423834775
+Neff: 2.99825636418467
+weights:
+  f_photometric_quality          0.339498
+  f_color_rarity                 0.000110
+  f_redshift_interest            0.000015
+  f_redshift_precision           0.341178
+  f_local_density                0.000035
+  f_isolation                    0.319164
+
+==============================================================================================================
+r300_k3_rz600_dz005
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7424339556356271
+Neff: 2.9980179293044706
+weights:
+  f_photometric_quality          0.339680
+  f_color_rarity                 0.000113
+  f_redshift_interest            0.000012
+  f_redshift_precision           0.341123
+  f_local_density                0.000001
+  f_isolation                    0.319071
+
+==============================================================================================================
+r300_k10_rz600_dz005
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7247930889146907
+Neff: 3.0154838608259475
+weights:
+  f_photometric_quality          0.397111
+  f_color_rarity                 0.005500
+  f_redshift_interest            0.331980
+  f_redshift_precision           0.252001
+  f_local_density                0.000045
+  f_isolation                    0.013361
+
+==============================================================================================================
+r300_k5_rz300_dz005
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7240694121755938
+Neff: 3.0161049641943225
+weights:
+  f_photometric_quality          0.396011
+  f_color_rarity                 0.005149
+  f_redshift_interest            0.332279
+  f_redshift_precision           0.253210
+  f_local_density                0.000019
+  f_isolation                    0.013332
+
+==============================================================================================================
+r300_k5_rz1200_dz005
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7241367047111451
+Neff: 3.015271608413066
+weights:
+  f_photometric_quality          0.397177
+  f_color_rarity                 0.005508
+  f_redshift_interest            0.331941
+  f_redshift_precision           0.251997
+  f_local_density                0.000029
+  f_isolation                    0.013348
+
+==============================================================================================================
+r300_k5_rz600_dz0025
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7240681680697885
+Neff: 3.015222307410386
+weights:
+  f_photometric_quality          0.397175
+  f_color_rarity                 0.005511
+  f_redshift_interest            0.331918
+  f_redshift_precision           0.252041
+  f_local_density                0.000015
+  f_isolation                    0.013340
+
+==============================================================================================================
+r300_k5_rz600_dz010
+==============================================================================================================
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+objective: 0.7431837960597555
+Neff: 2.9983312151177395
+weights:
+  f_photometric_quality          0.339638
+  f_color_rarity                 0.000111
+  f_redshift_interest            0.000014
+  f_redshift_precision           0.340988
+  f_local_density                0.000044
+  f_isolation                    0.319206
+
+======================================================================================================================================================
+SDSS NEIGHBOR SENSITIVITY SUMMARY
+======================================================================================================================================================
+                      config  objective     neff  median_nn_arcsec  median_kth_arcsec  median_count  median_redshift_count  spearman_vs_baseline  top1000_overlap  top1000_jaccard
+baseline_r300_k5_rz600_dz005   0.724095 3.015223         94.731281         248.446123           7.0                    2.0              1.000000             1000         1.000000
+         r150_k5_rz600_dz005   0.723526 3.015158         94.731281         248.446123           2.0                    2.0              1.000000             1000         1.000000
+         r600_k5_rz600_dz005   0.743509 2.998256         94.731281         248.446123          27.0                    2.0              0.083460               27         0.013685
+         r300_k3_rz600_dz005   0.742434 2.998018         94.731281         187.050515           7.0                    2.0              0.083486               27         0.013685
+        r300_k10_rz600_dz005   0.724793 3.015484         94.731281         359.042520           7.0                    2.0              1.000000             1000         1.000000
+         r300_k5_rz300_dz005   0.724069 3.016105         94.731281         248.446123           7.0                    1.0              0.999996              999         0.998002
+        r300_k5_rz1200_dz005   0.724137 3.015272         94.731281         248.446123           7.0                   10.0              1.000000             1000         1.000000
+        r300_k5_rz600_dz0025   0.724068 3.015222         94.731281         248.446123           7.0                    1.0              1.000000             1000         1.000000
+         r300_k5_rz600_dz010   0.743184 2.998331         94.731281         248.446123           7.0                    5.0              0.083543               27         0.013685
+
+======================================================================================================================================================
+WEIGHT SENSITIVITY
+======================================================================================================================================================
+                      config  weight_f_photometric_quality  weight_f_color_rarity  weight_f_redshift_interest  weight_f_redshift_precision  weight_f_local_density  weight_f_isolation
+baseline_r300_k5_rz600_dz005                      0.397183               0.005514                    0.331924                     0.252021            1.861529e-05            0.013340
+         r150_k5_rz600_dz005                      0.397212               0.005528                    0.331889                     0.252036            5.195934e-06            0.013330
+         r600_k5_rz600_dz005                      0.339498               0.000110                    0.000015                     0.341178            3.476449e-05            0.319164
+         r300_k3_rz600_dz005                      0.339680               0.000113                    0.000012                     0.341123            8.738820e-07            0.319071
+        r300_k10_rz600_dz005                      0.397111               0.005500                    0.331980                     0.252001            4.534406e-05            0.013361
+         r300_k5_rz300_dz005                      0.396011               0.005149                    0.332279                     0.253210            1.865573e-05            0.013332
+        r300_k5_rz1200_dz005                      0.397177               0.005508                    0.331941                     0.251997            2.938159e-05            0.013348
+        r300_k5_rz600_dz0025                      0.397175               0.005511                    0.331918                     0.252041            1.536933e-05            0.013340
+         r300_k5_rz600_dz010                      0.339638               0.000111                    0.000014                     0.340988            4.396240e-05            0.319206
+
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss_neighbors
+DONE.

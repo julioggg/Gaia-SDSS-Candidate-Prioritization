@@ -1,0 +1,105 @@
+==============================================================================================================
+SDSS EXTERNAL SPECTROSCOPIC VALIDATION
+==============================================================================================================
+
+GALAXY evaluable: 5,942
+GALAXY positives: 802 (13.497%)
+Subclass positives:
+subClass
+AGN                      419
+BROADLINE                297
+AGN BROADLINE             56
+STARFORMING BROADLINE     26
+STARBURST BROADLINE        4
+
+QSO evaluable: 9,014
+QSO positives: 315 (3.495%)
+Subclass positives:
+subClass
+STARBURST BROADLINE      224
+AGN BROADLINE             46
+STARFORMING BROADLINE     18
+AGN                       14
+STARBURST                  9
+STARFORMING                4
+
+========================================================================================================================
+GLOBAL SPECTROSCOPIC VALIDATION
+========================================================================================================================
+ class                 benchmark          method  n_evaluable  positives  prevalence  roc_auc  average_precision  ap_over_prevalence
+GALAXY   GALAXY_AGN_OR_BROADLINE PCA_Mahalanobis         5942        802    0.134971 0.490343           0.147283            1.091220
+GALAXY   GALAXY_AGN_OR_BROADLINE             LOF         5942        802    0.134971 0.522794           0.143938            1.066432
+GALAXY   GALAXY_AGN_OR_BROADLINE IsolationForest         5942        802    0.134971 0.427955           0.115420            0.855147
+GALAXY   GALAXY_AGN_OR_BROADLINE        Proposed         5942        802    0.134971 0.433245           0.114702            0.849825
+   QSO QSO_NONCANONICAL_SUBCLASS IsolationForest         9014        315    0.034946 0.883310           0.138659            3.967852
+   QSO QSO_NONCANONICAL_SUBCLASS PCA_Mahalanobis         9014        315    0.034946 0.860413           0.113794            3.256314
+   QSO QSO_NONCANONICAL_SUBCLASS             LOF         9014        315    0.034946 0.675025           0.069846            1.998714
+   QSO QSO_NONCANONICAL_SUBCLASS        Proposed         9014        315    0.034946 0.040917           0.018137            0.519005
+
+========================================================================================================================
+GALAXY TOP-FRACTION VALIDATION
+========================================================================================================================
+ class               benchmark          method  fraction   K  observed_positive  expected_random  precision_at_k  recall_at_k  enrichment  fisher_odds_ratio  or_ci95_low  or_ci95_high  fisher_p_one_sided
+GALAXY GALAXY_AGN_OR_BROADLINE PCA_Mahalanobis     0.005  30                  6         4.049142        0.200000     0.007481    1.481796           1.606784     0.654757      3.943070            0.210556
+GALAXY GALAXY_AGN_OR_BROADLINE        Proposed     0.005  30                  2         4.049142        0.066667     0.002494    0.493932           0.456429     0.108519      1.919730            0.927158
+GALAXY GALAXY_AGN_OR_BROADLINE IsolationForest     0.005  30                  2         4.049142        0.066667     0.002494    0.493932           0.456429     0.108519      1.919730            0.927158
+GALAXY GALAXY_AGN_OR_BROADLINE             LOF     0.005  30                  1         4.049142        0.033333     0.001247    0.246966           0.220027     0.029930      1.617515            0.987238
+GALAXY GALAXY_AGN_OR_BROADLINE PCA_Mahalanobis     0.010  59                 17         7.963312        0.288136     0.021197    2.134790           2.628632     1.488923      4.640741            0.001498
+GALAXY GALAXY_AGN_OR_BROADLINE IsolationForest     0.010  59                  5         7.963312        0.084746     0.006234    0.627879           0.590873     0.235649      1.481573            0.915310
+GALAXY GALAXY_AGN_OR_BROADLINE        Proposed     0.010  59                  4         7.963312        0.067797     0.004988    0.502304           0.463431     0.167487      1.282298            0.966841
+GALAXY GALAXY_AGN_OR_BROADLINE             LOF     0.010  59                  3         7.963312        0.050847     0.003741    0.376728           0.340873     0.106441      1.091625            0.990266
+GALAXY GALAXY_AGN_OR_BROADLINE PCA_Mahalanobis     0.020 119                 29        16.061595        0.243697     0.036160    1.805549           2.105074     1.375815      3.220881            0.000884
+GALAXY GALAXY_AGN_OR_BROADLINE             LOF     0.020 119                 15        16.061595        0.126050     0.018703    0.933905           0.922930     0.534338      1.594122            0.654099
+GALAXY GALAXY_AGN_OR_BROADLINE        Proposed     0.020 119                 11        16.061595        0.092437     0.013716    0.684863           0.647937     0.346871      1.210315            0.940359
+GALAXY GALAXY_AGN_OR_BROADLINE IsolationForest     0.020 119                 11        16.061595        0.092437     0.013716    0.684863           0.647937     0.346871      1.210315            0.940359
+GALAXY GALAXY_AGN_OR_BROADLINE PCA_Mahalanobis     0.050 297                 56        40.086503        0.188552     0.069825    1.396979           1.525948     1.129558      2.061439            0.004867
+GALAXY GALAXY_AGN_OR_BROADLINE             LOF     0.050 297                 39        40.086503        0.131313     0.048628    0.972896           0.967204     0.684806      1.366057            0.602012
+GALAXY GALAXY_AGN_OR_BROADLINE IsolationForest     0.050 297                 32        40.086503        0.107744     0.039900    0.798274           0.764519     0.525657      1.111921            0.936133
+GALAXY GALAXY_AGN_OR_BROADLINE        Proposed     0.050 297                 29        40.086503        0.097643     0.036160    0.723436           0.682010     0.461487      1.007912            0.981592
+GALAXY GALAXY_AGN_OR_BROADLINE PCA_Mahalanobis     0.100 594                101        80.173006        0.170034     0.125935    1.259776           1.358092     1.080853      1.706443            0.006016
+GALAXY GALAXY_AGN_OR_BROADLINE             LOF     0.100 594                 88        80.173006        0.148148     0.109726    1.097626           1.128730     0.888157      1.434466            0.176374
+GALAXY GALAXY_AGN_OR_BROADLINE IsolationForest     0.100 594                 69        80.173006        0.116162     0.086035    0.860639           0.827480     0.636243      1.076197            0.932344
+GALAXY GALAXY_AGN_OR_BROADLINE        Proposed     0.100 594                 56        80.173006        0.094276     0.069825    0.698489           0.642116     0.482458      0.854610            0.999423
+
+========================================================================================================================
+QSO TOP-FRACTION VALIDATION
+========================================================================================================================
+class                 benchmark          method  fraction   K  observed_positive  expected_random  precision_at_k  recall_at_k  enrichment  fisher_odds_ratio  or_ci95_low  or_ci95_high  fisher_p_one_sided
+  QSO QSO_NONCANONICAL_SUBCLASS IsolationForest     0.005  45                  7         1.572554        0.155556     0.022222    4.451358           5.180024     2.294873     11.692431        8.613049e-04
+  QSO QSO_NONCANONICAL_SUBCLASS PCA_Mahalanobis     0.005  45                  3         1.572554        0.066667     0.009524    1.907725           1.981914     0.610978      6.429005        2.072704e-01
+  QSO QSO_NONCANONICAL_SUBCLASS             LOF     0.005  45                  1         1.572554        0.022222     0.003175    0.635908           0.626448     0.086032      4.561507        7.990459e-01
+  QSO QSO_NONCANONICAL_SUBCLASS        Proposed     0.005  45                  0         1.572554        0.000000     0.000000    0.000000           0.000000     0.018528      4.904370        1.000000e+00
+  QSO QSO_NONCANONICAL_SUBCLASS IsolationForest     0.010  90                  8         3.145108        0.088889     0.025397    2.543633           2.738381     1.313262      5.710001        1.315829e-02
+  QSO QSO_NONCANONICAL_SUBCLASS             LOF     0.010  90                  4         3.145108        0.044444     0.012698    1.271817           1.288118     0.469676      3.532750        3.859244e-01
+  QSO QSO_NONCANONICAL_SUBCLASS PCA_Mahalanobis     0.010  90                  4         3.145108        0.044444     0.012698    1.271817           1.288118     0.469676      3.532750        3.859244e-01
+  QSO QSO_NONCANONICAL_SUBCLASS        Proposed     0.010  90                  0         3.145108        0.000000     0.000000    0.000000           0.000000     0.009337      2.434498        1.000000e+00
+  QSO QSO_NONCANONICAL_SUBCLASS IsolationForest     0.020 180                 21         6.290215        0.116667     0.066667    3.338519           3.836478     2.398545      6.136454        1.139133e-06
+  QSO QSO_NONCANONICAL_SUBCLASS             LOF     0.020 180                 19         6.290215        0.105556     0.060317    3.020564           3.404020     2.086716      5.552914        1.612328e-05
+  QSO QSO_NONCANONICAL_SUBCLASS PCA_Mahalanobis     0.020 180                  9         6.290215        0.050000     0.028571    1.430794           1.466804     0.743155      2.895111        1.786647e-01
+  QSO QSO_NONCANONICAL_SUBCLASS        Proposed     0.020 180                  0         6.290215        0.000000     0.000000    0.000000           0.000000     0.004650      1.203273        1.000000e+00
+  QSO QSO_NONCANONICAL_SUBCLASS IsolationForest     0.050 451                 58        15.760484        0.128603     0.184127    3.680090           4.769735     3.525187      6.453664        1.224898e-18
+  QSO QSO_NONCANONICAL_SUBCLASS PCA_Mahalanobis     0.050 451                 53        15.760484        0.117517     0.168254    3.362841           4.219120     3.088731      5.763201        2.376593e-15
+  QSO QSO_NONCANONICAL_SUBCLASS             LOF     0.050 451                 42        15.760484        0.093126     0.133333    2.664893           3.118300     2.220184      4.379724        4.307607e-09
+  QSO QSO_NONCANONICAL_SUBCLASS        Proposed     0.050 451                  0        15.760484        0.000000     0.000000    0.000000           0.000000     0.001804      0.464672        1.000000e+00
+  QSO QSO_NONCANONICAL_SUBCLASS IsolationForest     0.100 901                135        31.486022        0.149834     0.428571    4.287617           7.767298     6.139647      9.826447        6.744092e-55
+  QSO QSO_NONCANONICAL_SUBCLASS PCA_Mahalanobis     0.100 901                106        31.486022        0.117647     0.336508    3.366573           5.042424     3.947408      6.441199        1.024919e-31
+  QSO QSO_NONCANONICAL_SUBCLASS             LOF     0.100 901                 87        31.486022        0.096559     0.276190    2.763131           3.696253     2.857659      4.780938        1.444355e-19
+  QSO QSO_NONCANONICAL_SUBCLASS        Proposed     0.100 901                  0        31.486022        0.000000     0.000000    0.000000           0.000000     0.000855      0.219859        1.000000e+00
+
+========================================================================================================================
+BEST METHOD BY CLASS / FRACTION
+========================================================================================================================
+ class  fraction   K          method  observed_positive  expected_random  enrichment  fisher_p_one_sided
+GALAXY     0.005  30 PCA_Mahalanobis                  6         4.049142    1.481796        2.105565e-01
+GALAXY     0.010  59 PCA_Mahalanobis                 17         7.963312    2.134790        1.497755e-03
+GALAXY     0.020 119 PCA_Mahalanobis                 29        16.061595    1.805549        8.837893e-04
+GALAXY     0.050 297 PCA_Mahalanobis                 56        40.086503    1.396979        4.867485e-03
+GALAXY     0.100 594 PCA_Mahalanobis                101        80.173006    1.259776        6.016113e-03
+   QSO     0.005  45 IsolationForest                  7         1.572554    4.451358        8.613049e-04
+   QSO     0.010  90 IsolationForest                  8         3.145108    2.543633        1.315829e-02
+   QSO     0.020 180 IsolationForest                 21         6.290215    3.338519        1.139133e-06
+   QSO     0.050 451 IsolationForest                 58        15.760484    3.680090        1.224898e-18
+   QSO     0.100 901 IsolationForest                135        31.486022    4.287617        6.744092e-55
+
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/external_validation/sdss
+DONE.

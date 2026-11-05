@@ -1,0 +1,85 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+====================================================================================
+EXACT GAIA EXTERNAL LABEL RETRIEVAL
+====================================================================================
+Target source_ids: 5,205
+
+Chunk 0-400 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 400-800 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 800-1,200 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 1,200-1,600 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 1,600-2,000 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 2,000-2,400 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 2,400-2,800 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 2,800-3,200 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 3,200-3,600 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 3,600-4,000 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 4,000-4,400 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 4,400-4,800 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 4,800-5,200 (400 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 400
+
+Chunk 5,200-5,205 (5 IDs)
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 5
+
+====================================================================================
+EXACT GAIA LABEL AUDIT
+====================================================================================
+Definitive targets: 5,205
+Unique returned: 5,205
+Missing: 0
+Extra: 0
+
+------------------------------------------------------------------------------------
+Variable: 70 (1.345%)
+NSS: 2 (0.038%)
+Variable OR NSS: 72 (1.383%)
+
+phot_variable_flag values:
+phot_variable_flag
+NOT_AVAILABLE    5135
+VARIABLE           70
+
+non_single_star > 0: 2
+
+SHA256: 8d030ec6216ff29febc1018435edaa983b58ebd9d1a7748fa6fefe9b0f87e0e5
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/gaia/gaia_external_labels_exact.csv
+DONE.

@@ -1,0 +1,21 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+==================================================================================
+GAIA EXTERNAL VALIDATION LABEL DOWNLOAD
+==================================================================================
+INFO: Query finished. [astroquery.utils.tap.core]
+Rows returned: 50,000
+
+==================================================================================
+GAIA LABEL AUDIT
+==================================================================================
+Definitive Gaia targets: 5,205
+Targets with downloaded label row: 3,420
+Missing: 1785
+
+Variable: 37 (1.08%)
+NSS: 1 (0.03%)
+Variable OR NSS: 38 (1.11%)
+
+SHA256: a8b9596c2be18a7f1db771c4f1464041f39d1638a10371b5b24eed675dbfe28d
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/gaia/gaia_external_labels.csv
+DONE.

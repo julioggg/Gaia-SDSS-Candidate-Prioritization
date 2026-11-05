@@ -1,0 +1,74 @@
+
+====================================================================================================
+Building: 01_MANUSCRIPT_FIGURES_FINAL.zip
+Source: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/final_submission_package/staging/01_manuscript_figures
+Files: 13
+====================================================================================================
+  13/13
+Integrity: OK
+Size: 0.59 MB
+
+====================================================================================================
+Building: 02_MANUSCRIPT_TABLES_FINAL.zip
+Source: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/final_submission_package/staging/02_manuscript_tables
+Files: 119
+====================================================================================================
+  100/119
+  119/119
+Integrity: OK
+Size: 39.63 MB
+
+====================================================================================================
+Building: 03_NEW_REVISION_DATA_FINAL.zip
+Source: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/final_submission_package/staging/03_new_revision_data
+Files: 499
+====================================================================================================
+  100/499
+  200/499
+  300/499
+  400/499
+  499/499
+Integrity: OK
+Size: 264.60 MB
+
+====================================================================================================
+Building: 04_SUPPLEMENTARY_CODE_FINAL.zip
+Source: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/final_submission_package/staging/04_supplementary_code
+Files: 53
+====================================================================================================
+  53/53
+Integrity: OK
+Size: 0.11 MB
+
+====================================================================================================
+Building: 05_REPRODUCIBILITY_METADATA_FINAL.zip
+Source: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/final_submission_package/staging/05_reproducibility_metadata
+Files: 334
+====================================================================================================
+  100/334
+  200/334
+  300/334
+  334/334
+Integrity: OK
+Size: 0.24 MB
+
+==============================================================================================================
+FINAL PACKAGE SUMMARY
+==============================================================================================================
+01_MANUSCRIPT_FIGURES_FINAL.zip                     0.59 MB
+02_MANUSCRIPT_TABLES_FINAL.zip                     39.63 MB
+03_NEW_REVISION_DATA_FINAL.zip                    264.60 MB
+04_SUPPLEMENTARY_CODE_FINAL.zip                     0.11 MB
+05_REPRODUCIBILITY_METADATA_FINAL.zip               0.24 MB
+
+==============================================================================================================
+SHA256
+==============================================================================================================
+458c781b4dd496e829bc94a80a6f64e963219eed5792ca5aa382b4bb71baec49  01_MANUSCRIPT_FIGURES_FINAL.zip
+309c25d0b83476d399366024cd3bf6342a08a59de08eabec1a8785ba9adc5869  02_MANUSCRIPT_TABLES_FINAL.zip
+7565d24c3724ab75e5d86f71d2131cc3ef1b760169484e0cf5071984be087439  03_NEW_REVISION_DATA_FINAL.zip
+88e4554cecf945ad7afcf10cd56004dba9835aa4dcb3f532571a4cfd0344bcdc  04_SUPPLEMENTARY_CODE_FINAL.zip
+f107a1de96163047362241e4ef7df492b746a2ce830c9f56020df59743363a82  05_REPRODUCIBILITY_METADATA_FINAL.zip
+
+Saved in: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/final_submission_package/zips
+DONE.

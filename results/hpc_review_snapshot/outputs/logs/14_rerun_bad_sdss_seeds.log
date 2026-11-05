@@ -1,0 +1,58 @@
+========================================================================
+RERUN SEED: 5
+========================================================================
+objective: 0.6552649024911507
+mean_top_score: 0.9372152970652091
+N_eff: 3.000117574693436
+entropy: 0.6133317064296244
+Jaccard vs seed42: 0.9960079840319361
+Spearman vs seed42: 0.9999957763767024
+nfev: 54222
+
+              feature       weight
+f_photometric_quality 3.356955e-01
+          f_isolation 3.328281e-01
+ f_redshift_precision 3.314427e-01
+       f_color_rarity 3.357705e-05
+  f_redshift_interest 1.328678e-07
+      f_local_density 1.495108e-09
+
+========================================================================
+RERUN SEED: 22
+========================================================================
+objective: 0.6552648175382233
+mean_top_score: 0.9372143202408582
+N_eff: 3.000119679363997
+entropy: 0.6133339679319525
+Jaccard vs seed42: 0.9960079840319361
+Spearman vs seed42: 0.9999957845295024
+nfev: 54327
+
+              feature       weight
+f_photometric_quality 3.356935e-01
+          f_isolation 3.328277e-01
+ f_redshift_precision 3.314447e-01
+       f_color_rarity 3.369528e-05
+  f_redshift_interest 3.401349e-07
+      f_local_density 1.348205e-09
+
+========================================================================
+RERUN SEED: 24
+========================================================================
+objective: 0.6552605458043682
+mean_top_score: 0.9372398705327467
+N_eff: 2.999999986121587
+entropy: 0.6131781794369249
+Jaccard vs seed42: 0.998001998001998
+Spearman vs seed42: 0.99999982138816
+nfev: 54285
+
+              feature       weight
+f_photometric_quality 3.343999e-01
+          f_isolation 3.336435e-01
+ f_redshift_precision 3.319518e-01
+       f_color_rarity 3.341195e-06
+  f_redshift_interest 1.357205e-06
+      f_local_density 1.295735e-08
+
+Saved to: outputs/stability/sdss/bad_seed_reruns

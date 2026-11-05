@@ -1,0 +1,8 @@
+Validacion del catalogo: GAIA
+Top K evaluado: 1000
+Mejor metodo segun score multivariable medio:
+Optimizacion multivariable regularizada
+Score medio: 0.545831
+Baseline aleatorio:
+Score medio aleatorio: 0.372217
+Mejora frente a aleatorio: 1.466x

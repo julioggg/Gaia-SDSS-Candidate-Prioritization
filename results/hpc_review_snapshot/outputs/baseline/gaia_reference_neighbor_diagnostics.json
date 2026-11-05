@@ -1,0 +1,10 @@
+{
+  "targets": 5205,
+  "reference_after_filters": 19739,
+  "neighbor_radius_arcsec": 120.0,
+  "kth_neighbor": 5,
+  "percent_with_neighbor": 89.93275696445725,
+  "median_nn_arcsec": 65.68831053651357,
+  "median_kth_arcsec": 172.3358172142515,
+  "median_neighbor_count": 2.0
+}

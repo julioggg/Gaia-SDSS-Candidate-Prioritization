@@ -1,0 +1,26 @@
+==============================================================================
+GAIA FEATURES WITH BUFFERED REFERENCE POPULATION
+==============================================================================
+Target file: data/raw/frozen/gaia_raw_frozen.csv
+Reference file: data/reference/gaia/gaia_reference_buffered.csv
+
+Targets after scientific filters: 5205
+Reference after scientific filters: 19739
+Filtered targets present in reference: 5205 / 5205
+
+Building Gaia BallTree...
+Computing nearest and kth neighbors...
+Computing fixed-radius neighbor counts...
+
+==============================================================================
+REFERENCE-BASED GAIA FEATURES COMPLETE
+==============================================================================
+Features Gaia: 5205
+% with neighbor <=120": 89.93%
+Median nearest-neighbor separation: 65.688"
+Median kth-neighbor separation: 172.336"
+Median neighbors <=120": 2.0
+
+Output: data/processed/gaia_features_reference.csv
+Diagnostics: outputs/baseline/gaia_reference_neighbor_diagnostics.json
+DONE.

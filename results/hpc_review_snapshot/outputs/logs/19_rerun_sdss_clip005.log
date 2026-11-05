@@ -1,0 +1,79 @@
+
+============================================================================
+0.5-99.5 HIGH-BUDGET RERUN | seed=0
+============================================================================
+
+objective: 0.646715481770235
+mean_top_score: 0.919163513886309
+N_eff: 2.9994237805043764
+entropy: 0.6154946429914914
+Jaccard vs baseline: 0.9065776930409915
+Spearman vs baseline: 0.9973004936855443
+nfev: 54404
+
+              feature   weight
+ f_redshift_precision 0.342855
+f_photometric_quality 0.341212
+          f_isolation 0.315313
+       f_color_rarity 0.000417
+  f_redshift_interest 0.000200
+      f_local_density 0.000003
+
+============================================================================
+0.5-99.5 HIGH-BUDGET RERUN | seed=1
+============================================================================
+
+objective: 0.6467144236634303
+mean_top_score: 0.919479904065699
+N_eff: 2.9988466602953188
+entropy: 0.614860240863712
+Jaccard vs baseline: 0.9065776930409915
+Spearman vs baseline: 0.9972351024469582
+nfev: 54327
+
+              feature       weight
+ f_redshift_precision 3.419589e-01
+f_photometric_quality 3.414619e-01
+          f_isolation 3.161158e-01
+       f_color_rarity 3.825503e-04
+  f_redshift_interest 7.976882e-05
+      f_local_density 9.881480e-07
+
+============================================================================
+0.5-99.5 HIGH-BUDGET RERUN | seed=2
+============================================================================
+
+objective: 0.6467155692889258
+mean_top_score: 0.9191684632463855
+N_eff: 2.9994154668808855
+entropy: 0.6154849338545233
+Jaccard vs baseline: 0.9065776930409915
+Spearman vs baseline: 0.9973002033820241
+nfev: 54467
+
+              feature   weight
+ f_redshift_precision 0.342855
+f_photometric_quality 0.341209
+          f_isolation 0.315317
+       f_color_rarity 0.000418
+  f_redshift_interest 0.000199
+      f_local_density 0.000002
+
+==========================================================================================
+FINAL HIGH-BUDGET SUMMARY
+==========================================================================================
+ seed  objective  mean_top_score  effective_features  entropy  topk_overlap_n  jaccard_vs_baseline_1_99  spearman_vs_baseline_1_99  success  nfev  nit
+    0   0.646715        0.919164            2.999424 0.615495             951                  0.906578                   0.997300    False 54404  300
+    1   0.646714        0.919480            2.998847 0.614860             951                  0.906578                   0.997235    False 54327  300
+    2   0.646716        0.919168            2.999415 0.615485             951                  0.906578                   0.997300    False 54467  300
+
+                           mean       std           min       max
+feature                                                          
+f_redshift_precision   0.342556  0.000517  3.419589e-01  0.342855
+f_photometric_quality  0.341294  0.000145  3.412090e-01  0.341462
+f_isolation            0.315582  0.000462  3.153133e-01  0.316116
+f_color_rarity         0.000406  0.000020  3.825503e-04  0.000418
+f_redshift_interest    0.000160  0.000069  7.976882e-05  0.000200
+f_local_density        0.000002  0.000001  9.881480e-07  0.000003
+
+Saved to: outputs/sensitivity/sdss/clipping/rerun_005

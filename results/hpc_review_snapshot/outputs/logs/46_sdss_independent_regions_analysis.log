@@ -1,0 +1,92 @@
+
+==================================================================================================================================
+REGION: region_A
+==================================================================================================================================
+Targets: 50,000
+Reference: 235,389
+Adding reference-based neighborhood features...
+Building BallTree...
+  targets:   50,000
+  reference: 235,389
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+Final feature rows: 50,000
+Optimizing seed 0
+Optimizing seed 1
+Optimizing seed 2
+Optimizing seed 42
+
+==================================================================================================================================
+REGION: region_G
+==================================================================================================================================
+Targets: 50,000
+Reference: 279,036
+Adding reference-based neighborhood features...
+Building BallTree...
+  targets:   50,000
+  reference: 279,036
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+Final feature rows: 50,000
+Optimizing seed 0
+Optimizing seed 1
+Optimizing seed 2
+Optimizing seed 42
+
+================================================================================================================================================================
+SDSS INDEPENDENT-REGION METRIC SUMMARY
+================================================================================================================================================================
+  region  objective_mean  objective_std  neff_mean  neff_std  entropy_mean
+region_A        0.651866   2.767127e-08   2.997802  0.000003      0.613147
+region_G        0.650595   2.659611e-07   3.000159  0.000003      0.613562
+
+==========================================================================================================================================================================
+SDSS INDEPENDENT-REGION WEIGHTS
+==========================================================================================================================================================================
+              feature     region_A     region_G  baseline_original
+       f_color_rarity 2.935450e-05 3.483039e-05           0.000010
+          f_isolation 3.199753e-01 3.284813e-01           0.333693
+      f_local_density 9.949721e-08 4.605505e-07           0.000009
+f_photometric_quality 3.388013e-01 3.354950e-01           0.334047
+  f_redshift_interest 8.858584e-06 4.384137e-05           0.000003
+ f_redshift_precision 3.411851e-01 3.359445e-01           0.332237
+
+==================================================================================================================================
+SDSS INDEPENDENT-REGION WEIGHT SIMILARITY
+==================================================================================================================================
+          comparison  cosine_weight_similarity  l1_weight_distance
+original_vs_region_A                  0.999564            0.027454
+original_vs_region_G                  0.999935            0.010441
+region_A_vs_region_G                  0.999834            0.017094
+
+======================================================================================================================================================
+SDSS INDEPENDENT-REGION SEED STABILITY
+======================================================================================================================================================
+  region  spearman_mean  spearman_min  overlap_mean  overlap_min  jaccard_mean  jaccard_min
+region_A            1.0           1.0        1000.0         1000           1.0          1.0
+region_G            1.0           1.0        1000.0         1000           1.0          1.0
+
+==========================================================================================================================================================================
+SDSS INDEPENDENT-REGION DIAGNOSTICS
+==========================================================================================================================================================================
+  region  n_targets  n_reference  n_galaxy  n_qso  qso_fraction  percent_with_neighbor_300  percent_with_redshift_neighbor  median_nn_arcsec  median_kth_arcsec  median_neighbor_count  median_redshift_count
+region_A      50000       235389     40369   9631       0.19262                     99.288                          79.838         98.099284         255.272947                    6.0                    2.0
+region_G      50000       279036     34611  15389       0.30778                     99.840                          76.298         91.111007         236.529651                    7.0                    2.0
+
+==================================================================================================================================
+ORIGINAL-WEIGHT TRANSFER
+==================================================================================================================================
+  region     n  mean_score_all  mean_score_top1000  median_score_all
+region_A 50000        0.545612            0.928919          0.558438
+region_G 50000        0.553844            0.925682          0.569922
+
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/independent_regions/sdss/analysis
+DONE.

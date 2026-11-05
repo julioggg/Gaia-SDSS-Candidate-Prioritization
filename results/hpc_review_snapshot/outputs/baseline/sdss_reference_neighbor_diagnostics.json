@@ -1,0 +1,14 @@
+{
+  "targets_n": 50000,
+  "reference_n": 1732110,
+  "angular_radius_arcsec": 300.0,
+  "redshift_radius_arcsec": 600.0,
+  "dz": 0.05,
+  "kth_neighbor": 5,
+  "pct_with_angular_neighbor": 99.564,
+  "pct_with_redshift_neighbor": 78.91,
+  "median_nn_arcsec": 94.73128087315999,
+  "median_kth_arcsec": 248.44612268336527,
+  "median_neighbor_count_300": 7.0,
+  "median_redshift_neighbor_count_600": 2.0
+}

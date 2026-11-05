@@ -1,0 +1,49 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+==============================================================================================================
+GAIA DR3 INDEPENDENT-REGION ELIGIBILITY AUDIT
+==============================================================================================================
+
+--------------------------------------------------------------------------------------------------------------
+baseline: RA=180.0, Dec=30.0 | l=195.64, b=78.35
+INFO: Query finished. [astroquery.utils.tap.core]
+Eligible Gaia sources: 35,396
+
+--------------------------------------------------------------------------------------------------------------
+field_A: RA=60.0, Dec=30.0 | l=164.59, b=-17.23
+INFO: Query finished. [astroquery.utils.tap.core]
+Eligible Gaia sources: 211,855
+
+--------------------------------------------------------------------------------------------------------------
+field_B: RA=300.0, Dec=30.0 | l=67.08, b=0.05
+INFO: Query finished. [astroquery.utils.tap.core]
+Eligible Gaia sources: 2,694,935
+
+--------------------------------------------------------------------------------------------------------------
+field_C: RA=180.0, Dec=-30.0 | l=289.86, b=31.56
+INFO: Query finished. [astroquery.utils.tap.core]
+Eligible Gaia sources: 152,878
+
+--------------------------------------------------------------------------------------------------------------
+field_D: RA=60.0, Dec=-30.0 | l=228.46, b=-48.79
+INFO: Query finished. [astroquery.utils.tap.core]
+Eligible Gaia sources: 56,123
+
+--------------------------------------------------------------------------------------------------------------
+field_E: RA=300.0, Dec=-30.0 | l=11.27, b=-27.07
+500 Error 500:
+null
+Traceback (most recent call last):
+  File "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/scripts_revision/37_gaia_independent_region_counts.py", line 74, in <module>
+    job = Gaia.launch_job_async(
+  File "/home/julio.guerra__utn.edu.ec/venvs/universe-revision/lib/python3.10/site-packages/astroquery/gaia/core.py", line 1154, in launch_job_async
+    return TapPlus.launch_job_async(self, query=query,
+  File "/home/julio.guerra__utn.edu.ec/venvs/universe-revision/lib/python3.10/site-packages/astroquery/utils/tap/core.py", line 480, in launch_job_async
+    job.get_results()
+  File "/home/julio.guerra__utn.edu.ec/venvs/universe-revision/lib/python3.10/site-packages/astroquery/utils/tap/model/job.py", line 247, in get_results
+    self.__load_async_job_results()
+  File "/home/julio.guerra__utn.edu.ec/venvs/universe-revision/lib/python3.10/site-packages/astroquery/utils/tap/model/job.py", line 353, in __load_async_job_results
+    check_launch_response_status(resultsResponse,
+  File "/home/julio.guerra__utn.edu.ec/venvs/universe-revision/lib/python3.10/site-packages/astroquery/utils/tap/conn/tapconn.py", line 688, in check_launch_response_status
+    raise requests.exceptions.HTTPError(errMsg)
+requests.exceptions.HTTPError: Error 500:
+null

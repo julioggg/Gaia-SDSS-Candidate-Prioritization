@@ -1,0 +1,52 @@
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+======================================================================
+GAIA DR3
+======================================================================
+Downloading complete eligible Gaia population...
+INFO: Query finished. [astroquery.utils.tap.core]
+Eligible downloaded: 35396
+Frozen Gaia sample: 10000
+Unique source_id: 10000
+random_index range: 60968 510642169
+
+======================================================================
+SDSS DR17
+======================================================================
+Downloading deterministic SDSS sample...
+Frozen SDSS sample: 50000
+Unique objid: 50000
+Unique specobjid: 50000
+
+Class composition:
+class
+GALAXY    38484
+QSO       11516
+Name: count, dtype: int64
+
+======================================================================
+FROZEN DATASETS COMPLETE
+======================================================================
+Output: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/raw/frozen
+
+Files:
+SHA256SUMS.txt                         0.00 MB
+gaia_eligible_population.csv           6.26 MB
+gaia_query.adql                        0.00 MB
+gaia_raw_frozen.csv                    1.76 MB
+gaia_source_ids.txt                    0.19 MB
+manifest.json                          0.00 MB
+sdss_object_ids.csv                    1.89 MB
+sdss_query.sql                         0.00 MB
+sdss_raw_frozen.csv                    9.86 MB
+
+SHA256:
+gaia_eligible_population.csv 4abbcebc7ae5bfe325af9d0a95ad4fbd8c6bb3376d4665f8010bba2046d66e99
+gaia_raw_frozen.csv 91c01443c85a5509048949222a1458ad6248e47bea1215732ca1eae0c60135a0
+sdss_raw_frozen.csv 415f5aecd0d916b40ae3e850d35417936525f4ecc29035a53b030ba4e5ca2fbc
+gaia_query.adql ad5af7d05430e5579ecb197223215a0c9abd3736b091083c83721c6bb234bbf7
+sdss_query.sql ffb3eb7795e84b7e4feac4b6cdfe9b129a41b26cfed6cfe9904b221426f8cba4
+gaia_source_ids.txt 11db16f9d771fed3b8fdbf2f56fb100d5d8b5a75de002ec5a6234292c409a1e0
+sdss_object_ids.csv 72d88871bb081f2c6861f8ceeee1236b6f6702733acc818f759f0e2f68a46ec0
+
+DONE.

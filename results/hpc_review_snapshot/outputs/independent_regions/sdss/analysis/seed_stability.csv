@@ -1,0 +1,9 @@
+region,seed,spearman_vs_seed42,top1000_overlap_vs_seed42,top1000_jaccard_vs_seed42
+region_A,0,1.0,1000,1.0
+region_A,1,1.0,1000,1.0
+region_A,2,1.0,1000,1.0
+region_A,42,1.0,1000,1.0
+region_G,0,1.0,1000,1.0
+region_G,1,1.0,1000,1.0
+region_G,2,1.0,1000,1.0
+region_G,42,1.0,1000,1.0

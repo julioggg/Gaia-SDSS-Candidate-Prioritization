@@ -1,0 +1,14 @@
+catalog,stage,n_rows,galaxy,qso
+Gaia,frozen_input,10000,,
+Gaia,complete_required_numeric,10000,,
+Gaia,positive_parallax_and_error,10000,,
+Gaia,parallax_snr_ge_5,5205,,
+Gaia,ruwe_lt_1.4,5205,,
+Gaia,vtan_kms_between_0_and_1500,5205,,
+Gaia,finite_derived_kinematic_and_magnitude,5205,,
+Gaia,processed_reference_verified_exact_ids,5205,,
+SDSS,frozen_input,50000,38360.0,11640.0
+SDSS,complete_required_numeric,50000,,
+SDSS,galaxy_or_qso,50000,,
+SDSS,positive_magnitudes_and_redshift_range,50000,,
+SDSS,processed_reference_verified_exact_ids,50000,38360.0,11640.0

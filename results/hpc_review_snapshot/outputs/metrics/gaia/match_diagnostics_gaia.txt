@@ -1,0 +1,6 @@
+Diagnostico de match interno: GAIA
+Objetos con features: 3842
+nn_sep_arcsec mediana: 134.027883 arcsec; % > 0: 100.00%
+kth_sep_arcsec mediana: 363.815242 arcsec; % > 0: 100.00%
+neighbor_count_radius media: 0.728787; mediana: 0.000000; % > 0: 43.23%
+local_density_knn media: 0.073040; mediana: 0.043287; % > 0: 100.00%

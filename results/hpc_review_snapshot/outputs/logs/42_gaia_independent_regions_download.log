@@ -1,0 +1,226 @@
+The current archive release 3.15 contains two breaking changes. Please see https://www.cosmos.esa.int/web/gaia/news#GACSrelease315 for details. In case of questions or feedback, please consult the Gaia helpdesk at https://www.cosmos.esa.int/web/gaia/gaia-helpdesk.
+==============================================================================================================
+GAIA INDEPENDENT-REGION TILED DOWNLOAD
+==============================================================================================================
+
+==============================================================================================================
+field_C | RA=180.0 | Dec=-30.0
+==============================================================================================================
+
+CORE POPULATION
+--------------------------------------------------------------------------------------------------------------
+INFO: Query finished. [astroquery.utils.tap.core]
+Expected from COUNT(*): 152,878
+Number of Dec tiles: 12
+  tile 00: Dec [-33.000, -32.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 6,802
+  tile 01: Dec [-32.500, -32.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 11,923
+  tile 02: Dec [-32.000, -31.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 14,437
+  tile 03: Dec [-31.500, -31.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 15,451
+  tile 04: Dec [-31.000, -30.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 16,297
+  tile 05: Dec [-30.500, -30.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 16,342
+  tile 06: Dec [-30.000, -29.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 15,954
+  tile 07: Dec [-29.500, -29.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 15,153
+  tile 08: Dec [-29.000, -28.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 13,830
+  tile 09: Dec [-28.500, -28.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 12,020
+  tile 10: Dec [-28.000, -27.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 9,315
+  tile 11: Dec [-27.500, -27.000]
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,354
+Rows before dedup: 152,878
+Unique rows after dedup: 152,878
+Frozen deterministic sample: 10,000
+
+BUFFERED REFERENCE POPULATION
+--------------------------------------------------------------------------------------------------------------
+INFO: Query finished. [astroquery.utils.tap.core]
+Expected from COUNT(*): 163,539
+Number of Dec tiles: 13
+  tile 00: Dec [-33.100, -32.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 7,022
+  tile 01: Dec [-32.600, -32.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 12,177
+  tile 02: Dec [-32.100, -31.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 14,859
+  tile 03: Dec [-31.600, -31.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 16,071
+  tile 04: Dec [-31.100, -30.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 16,681
+  tile 05: Dec [-30.600, -30.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 16,801
+  tile 06: Dec [-30.100, -29.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 16,712
+  tile 07: Dec [-29.600, -29.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 16,040
+  tile 08: Dec [-29.100, -28.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 14,604
+  tile 09: Dec [-28.600, -28.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 12,967
+  tile 10: Dec [-28.100, -27.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 10,712
+  tile 11: Dec [-27.600, -27.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 7,504
+  tile 12: Dec [-27.100, -26.900]
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 1,389
+Rows before dedup: 163,539
+Unique rows after dedup: 163,539
+
+Frozen IDs present in reference: 10,000 / 10,000
+
+SHA256:
+  eligible_population_sha256: 4cee4283f884da4455ad59fbd4c7d492fb6965b4510cc05555f2b8f85431b54c
+  raw_frozen_sha256: 2630e9cdd53531b927342748200cbcf93aeeab884e928c8f32341095921adb8d
+  source_ids_sha256: 4433e0143196bf9cbeef557c44b16bfe5e591d3d41a6dd9cfa7ac13fde739aea
+  reference_buffered_sha256: 8b026afeff115f3814be02fd6f51dc78a2ecebe9868374aa6df0b454bd6864a2
+  core_tile_manifest_sha256: f5b61e6c8d39edac81f649568605d4fb0751df9a12a382538f9d1973f2722ec4
+  reference_tile_manifest_sha256: a81d3e68a2e5ec6fa3f3b467531aad3d4de4d96a9acfcf8e13b4914f8f6d1e54
+
+==============================================================================================================
+field_D | RA=60.0 | Dec=-30.0
+==============================================================================================================
+
+CORE POPULATION
+--------------------------------------------------------------------------------------------------------------
+INFO: Query finished. [astroquery.utils.tap.core]
+Expected from COUNT(*): 56,123
+Number of Dec tiles: 12
+  tile 00: Dec [-33.000, -32.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 2,270
+  tile 01: Dec [-32.500, -32.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 3,921
+  tile 02: Dec [-32.000, -31.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 4,856
+  tile 03: Dec [-31.500, -31.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,346
+  tile 04: Dec [-31.000, -30.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,734
+  tile 05: Dec [-30.500, -30.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,934
+  tile 06: Dec [-30.000, -29.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,752
+  tile 07: Dec [-29.500, -29.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,838
+  tile 08: Dec [-29.000, -28.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,535
+  tile 09: Dec [-28.500, -28.000)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 4,727
+  tile 10: Dec [-28.000, -27.500)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 3,908
+  tile 11: Dec [-27.500, -27.000]
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 2,302
+Rows before dedup: 56,123
+Unique rows after dedup: 56,123
+Frozen deterministic sample: 10,000
+
+BUFFERED REFERENCE POPULATION
+--------------------------------------------------------------------------------------------------------------
+INFO: Query finished. [astroquery.utils.tap.core]
+Expected from COUNT(*): 60,026
+Number of Dec tiles: 13
+  tile 00: Dec [-33.100, -32.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 2,323
+  tile 01: Dec [-32.600, -32.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 4,027
+  tile 02: Dec [-32.100, -31.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 4,967
+  tile 03: Dec [-31.600, -31.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,424
+  tile 04: Dec [-31.100, -30.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,941
+  tile 05: Dec [-30.600, -30.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 6,063
+  tile 06: Dec [-30.100, -29.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 6,074
+  tile 07: Dec [-29.600, -29.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 6,064
+  tile 08: Dec [-29.100, -28.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,767
+  tile 09: Dec [-28.600, -28.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 5,233
+  tile 10: Dec [-28.100, -27.600)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 4,350
+  tile 11: Dec [-27.600, -27.100)
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 3,196
+  tile 12: Dec [-27.100, -26.900]
+INFO: Query finished. [astroquery.utils.tap.core]
+    rows: 597
+Rows before dedup: 60,026
+Unique rows after dedup: 60,026
+
+Frozen IDs present in reference: 10,000 / 10,000
+
+SHA256:
+  eligible_population_sha256: be5b20ed2726f94a1450f644be312774795ff8b273daae4896dff0029db53402
+  raw_frozen_sha256: 7a1eb906bf21336e525258e78d9205e963b44a3bddc60ce7254ebf10cebdafc6
+  source_ids_sha256: eefa6d97056137a8a752b4b0a9defd5d152c04fbd6d226b2900c81fc804b1074
+  reference_buffered_sha256: 41bfa183a3b696f7b9c5c9b06c3fe034efce71cc0cb0f733185d1a1c6939869c
+  core_tile_manifest_sha256: 7b29c8a43c14d8a3691f954a6808e597d8984321b9605bb880b8ae9b7b85f78a
+  reference_tile_manifest_sha256: e364ed07e1c9107b5decbe974f937565d2218eaf61652f43f7b53eabce73c853
+
+======================================================================================================================================================
+INDEPENDENT REGION DOWNLOAD SUMMARY
+======================================================================================================================================================
+  field  ra_deg  dec_deg  core_count_tap  core_count_assembled  frozen_n  reference_count_tap  reference_count_assembled
+field_C   180.0    -30.0          152878                152878     10000               163539                     163539
+field_D    60.0    -30.0           56123                 56123     10000                60026                      60026
+
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/gaia/download_summary.csv
+DONE.

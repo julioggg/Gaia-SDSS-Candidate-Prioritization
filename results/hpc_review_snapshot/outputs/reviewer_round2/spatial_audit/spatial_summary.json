@@ -1,0 +1,14 @@
+{
+  "eligible_rows": 170008,
+  "frozen_rows": 50000,
+  "bins_per_axis": 12,
+  "eligible_occupied_cells": 144,
+  "frozen_occupied_cells": 144,
+  "empty_after_frozen_of_eligible_cells": 0,
+  "max_abs_standardized_residual_descriptive": 2.306064368323382,
+  "KS_RA_descriptive_statistic": 0.0025572876570514325,
+  "KS_RA_naive_pvalue_NOT_valid_for_nested_samples": 0.9616540259135087,
+  "KS_Dec_descriptive_statistic": 0.0025197393063856044,
+  "KS_Dec_naive_pvalue_NOT_valid_for_nested_samples": 0.9663653647595941,
+  "note": "Eligible and frozen are nested, so ordinary 2-sample KS p-values are not an independent-sample test. Use spatial differences descriptively; formal sampling tests must match the without-replacement design."
+}

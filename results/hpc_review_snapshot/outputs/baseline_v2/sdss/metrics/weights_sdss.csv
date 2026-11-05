@@ -1,0 +1,7 @@
+feature,weight
+f_photometric_quality,0.33404502134718855
+f_isolation,0.33369050269149164
+f_redshift_precision,0.3322346229489074
+f_color_rarity,1.6871176375476597e-05
+f_redshift_interest,1.1316559001414842e-05
+f_local_density,1.6652770355569455e-06

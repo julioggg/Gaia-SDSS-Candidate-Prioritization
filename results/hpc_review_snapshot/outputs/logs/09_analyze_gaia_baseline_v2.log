@@ -1,0 +1,17 @@
+Catalogo: GAIA
+Total objetos procesados: 5205
+Top seleccionados: 1000
+Media score total: 0.366026
+Media score top: 0.550357
+Mejora relativa top/total: 1.504x
+Numero efectivo de variables: 4.181
+Entropia normalizada de pesos: 0.848
+
+Pesos optimizados:
+                    feature   weight
+       f_kinematic_interest 0.315862
+ f_photometric_color_rarity 0.277122
+f_absolute_magnitude_rarity 0.203385
+                f_isolation 0.125109
+      f_astrometric_quality 0.074617
+            f_local_density 0.003905

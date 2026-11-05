@@ -1,0 +1,41 @@
+========================================================================
+SDSS FEATURES WITH BUFFERED REFERENCE POPULATION
+========================================================================
+Target file:
+  data/raw/frozen/sdss_raw_frozen.csv
+Reference file:
+  data/reference/sdss/sdss_reference_buffered.csv
+
+Targets after scientific filters: 50000
+Reference objects: 1732110
+Targets present in reference: 50000 / 50000
+Building BallTree...
+  targets:   50,000
+  reference: 1,732,110
+
+Nearest-neighbor / kNN pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+Fixed-radius + redshift-neighborhood pass...
+  processed 2,000/50,000  processed 4,000/50,000  processed 6,000/50,000  processed 8,000/50,000  processed 10,000/50,000  processed 12,000/50,000  processed 14,000/50,000  processed 16,000/50,000  processed 18,000/50,000  processed 20,000/50,000  processed 22,000/50,000  processed 24,000/50,000  processed 26,000/50,000  processed 28,000/50,000  processed 30,000/50,000  processed 32,000/50,000  processed 34,000/50,000  processed 36,000/50,000  processed 38,000/50,000  processed 40,000/50,000  processed 42,000/50,000  processed 44,000/50,000  processed 46,000/50,000  processed 48,000/50,000  processed 50,000/50,000
+
+========================================================================
+REFERENCE-BASED SDSS FEATURES COMPLETE
+========================================================================
+Features SDSS: 50000
+
+Class composition:
+class
+GALAXY    38360
+QSO       11640
+
+% with neighbor <= 300" : 99.56%
+% with similar-z neighbor <= 600" : 78.91%
+Median nearest-neighbor separation: 94.731 arcsec
+Median kth-neighbor separation: 248.446 arcsec
+Median neighbors <=300": 7.0
+Median similar-z neighbors <=600": 2.0
+
+Output: data/processed/sdss_features_reference.csv
+Diagnostics: outputs/baseline/sdss_reference_neighbor_diagnostics.json
+DONE.

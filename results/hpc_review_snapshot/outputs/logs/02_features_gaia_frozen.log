@@ -1,0 +1,9 @@
+Filas Gaia antes de filtros de calidad: 10000
+Filas Gaia despues de filtros de calidad: 5205
+Features Gaia creadas: 5205 filas
+Archivo guardado en: data/processed/gaia_features_frozen.csv
+Match interno Gaia:
+ - radio fijo: 120.0 arcsec
+ - vecino k: 5
+ - % con vecinos en radio fijo: 46.67%
+ - mediana distancia vecino cercano: 126.038 arcsec

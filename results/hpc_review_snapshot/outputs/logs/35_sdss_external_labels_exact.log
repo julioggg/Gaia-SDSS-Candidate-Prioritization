@@ -1,0 +1,272 @@
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+====================================================================================================
+SDSS DR17 EXACT EXTERNAL LABEL RETRIEVAL — RA CHUNKS
+====================================================================================================
+Targets: 50,000
+GALAXY: 38,360
+QSO: 11,640
+[01/24] Query RA 120.0-125.0
+  SQL rows: 67,691
+  exact targets: 1,961
+[02/24] Query RA 125.0-130.0
+  SQL rows: 74,646
+  exact targets: 2,178
+[03/24] Query RA 130.0-135.0
+  SQL rows: 81,612
+  exact targets: 2,414
+[04/24] Query RA 135.0-140.0
+  SQL rows: 77,515
+  exact targets: 2,395
+[05/24] Query RA 140.0-145.0
+  SQL rows: 74,764
+  exact targets: 2,161
+[06/24] Query RA 145.0-150.0
+  SQL rows: 76,406
+  exact targets: 2,252
+[07/24] Query RA 150.0-155.0
+  SQL rows: 76,052
+  exact targets: 2,138
+[08/24] Query RA 155.0-160.0
+  SQL rows: 78,223
+  exact targets: 2,315
+[09/24] Query RA 160.0-165.0
+  SQL rows: 74,198
+  exact targets: 2,225
+[10/24] Query RA 165.0-170.0
+  SQL rows: 71,516
+  exact targets: 2,047
+[11/24] Query RA 170.0-175.0
+  SQL rows: 71,321
+  exact targets: 2,071
+[12/24] Query RA 175.0-180.0
+  SQL rows: 72,297
+  exact targets: 2,155
+[13/24] Query RA 180.0-185.0
+  SQL rows: 71,084
+  exact targets: 2,119
+[14/24] Query RA 185.0-190.0
+  SQL rows: 68,734
+  exact targets: 1,960
+[15/24] Query RA 190.0-195.0
+  SQL rows: 67,298
+  exact targets: 1,981
+[16/24] Query RA 195.0-200.0
+  SQL rows: 68,196
+  exact targets: 2,033
+[17/24] Query RA 200.0-205.0
+  SQL rows: 67,790
+  exact targets: 1,959
+[18/24] Query RA 205.0-210.0
+  SQL rows: 67,767
+  exact targets: 1,909
+[19/24] Query RA 210.0-215.0
+  SQL rows: 67,514
+  exact targets: 1,961
+[20/24] Query RA 215.0-220.0
+  SQL rows: 69,902
+  exact targets: 2,109
+[21/24] Query RA 220.0-225.0
+  SQL rows: 68,465
+  exact targets: 1,996
+[22/24] Query RA 225.0-230.0
+  SQL rows: 67,113
+  exact targets: 1,898
+[23/24] Query RA 230.0-235.0
+  SQL rows: 66,135
+  exact targets: 1,892
+[24/24] Query RA 235.0-240.0
+  SQL rows: 63,569
+  exact targets: 1,871
+
+====================================================================================================
+SDSS EXACT LABEL AUDIT
+====================================================================================================
+Targets: 50,000
+Matched: 50,000
+Missing: 0
+Class agreement: 100.0000%
+
+====================================================================================================
+GALAXY SUBCLASS DISTRIBUTION
+====================================================================================================
+N: 38,360
+Non-empty subclass: 5,942 (15.490%)
+
+subClass
+<EMPTY>                  32418
+STARFORMING               3915
+STARBURST                 1225
+AGN                        419
+BROADLINE                  297
+AGN BROADLINE               56
+STARFORMING BROADLINE       26
+STARBURST BROADLINE          4
+
+====================================================================================================
+QSO SUBCLASS DISTRIBUTION
+====================================================================================================
+N: 11,640
+Non-empty subclass: 9,014 (77.440%)
+
+subClass
+BROADLINE                8699
+<EMPTY>                  2626
+STARBURST BROADLINE       224
+AGN BROADLINE              46
+STARFORMING BROADLINE      18
+AGN                        14
+STARBURST                   9
+STARFORMING                 4
+
+====================================================================================================
+sourceType DISTRIBUTION
+====================================================================================================
+sourceType
+LRG                  20693
+GALAXY               13529
+QSO                   9765
+SEQUELS_TARGET        1582
+ELG                   1399
+WISE_BOSS_QSO          331
+SPIDERS_RASS_CLUS      311
+QSO1_REOBS             259
+SERENDIPITY_BLUE       214
+WISE_COMPLETE          130
+QSO_SUPPZ              119
+SERENDIPITY_FIRST      115
+TDSS_RQS1              110
+QA                     106
+TDSS_B                 103
+HIZ_LRG                102
+QSO_WISE_FULL_SKY       95
+BRIGHTGAL               88
+BLUE_RADIO              79
+ROSAT_D                 62
+EFEDS_EROSITA_AGN       55
+QSO_WISE_SUPP           54
+FAINT_ELG               46
+GAL_NEAR_QSO            40
+QSO_VAR_SDSS            39
+ELG1_EBOSS              39
+SPIDERS_RASS_AGN        38
+NONLEGACY               36
+QSO_EBOSS_W3_ADM        31
+LRG_ROUND3              29
+
+====================================================================================================
+survey DISTRIBUTION
+====================================================================================================
+survey
+boss      25709
+sdss      15563
+eboss      8699
+segue2       20
+segue1        9
+
+====================================================================================================
+programname DISTRIBUTION
+====================================================================================================
+programname
+boss                           23645
+legacy                         15536
+eboss                           7082
+sequels                         1686
+ELG_NGC                         1530
+special_plates_NGC               293
+eFEDS                             87
+special_plates_W3                 46
+premarvels_preselection           27
+segue2                            20
+RM                                14
+special_elg                       11
+special_plates_TDSS_SPIDERS        9
+seguefaint                         7
+boss_lofar                         5
+segpointedf                        2
+
+====================================================================================================
+class_noqso DISTRIBUTION
+====================================================================================================
+class_noqso
+GALAXY     31180
+<EMPTY>    15592
+STAR        3228
+
+====================================================================================================
+subClass_noqso DISTRIBUTION
+====================================================================================================
+subClass_noqso
+<EMPTY>                45858
+A4p (G_37-26)            426
+WDmagnetic               423
+STARBURST                385
+STARFORMING              315
+O9.5Iae (30614)          313
+K5 (110281)              240
+B2Iaevar (41117)         234
+CalciumWD                219
+B0IVe (5394)             137
+AGN                      128
+G5/G6IVw (26297)         116
+G0 (G_101-29)            113
+CV                       107
+K3p (165195)              86
+G0 (63791)                78
+A5Ia (17378)              72
+G5Iab: (20123)            65
+WDhotter                  63
+BROADLINE                 58
+B2IV-V (176819)           55
+B0.5Ibe... (187459)       52
+A0 (19510)                51
+A5II (34578)              48
+K1V... (25329)            45
+B0.5Iae (185859)          39
+O8e (188001)              34
+K3V (32147)               27
+AGN BROADLINE             24
+B1Ve (212571)             23
+
+====================================================================================================
+class_person DISTRIBUTION
+====================================================================================================
+class_person
+0    50000
+
+====================================================================================================
+NUMERIC FIELD COVERAGE
+====================================================================================================
+z               50,000
+zErr            50,000
+snMedian        50,000
+rChi2           50,000
+rChi2Diff       50,000
+velDisp         50,000
+velDispErr      50,000
+
+SHA256: d953c1ddce232b442e2d819ca774736ab1ad089394a6e1716fb7e9e4b48e5d33
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/sdss/sdss_external_labels_exact.csv
+DONE.

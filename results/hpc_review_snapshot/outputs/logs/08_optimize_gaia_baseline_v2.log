@@ -1,0 +1,14 @@
+Optimizando catalogo: gaia
+Filas disponibles: 5205
+Top K: 1000
+Optimizacion lista.
+Mejor valor objetivo: 0.5037827940824313
+Numero efectivo de variables: 4.181190113243505
+Entropia de pesos: 0.847730591800839
+                    feature   weight
+       f_kinematic_interest 0.315862
+ f_photometric_color_rarity 0.277122
+f_absolute_magnitude_rarity 0.203385
+                f_isolation 0.125109
+      f_astrometric_quality 0.074617
+            f_local_density 0.003905

@@ -1,0 +1,75 @@
+============================================================
+FINAL SUBMISSION PACKAGE BUILDER
+============================================================
+ROOT: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2
+Timestamp: 20261026_084405
+
+
+============================================================
+01. MANUSCRIPT FIGURES
+============================================================
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/figures/final
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/figures/gaia
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/figures/sdss
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_reference/gaia/figures
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_v2/sdss/figures
+
+============================================================
+02. MANUSCRIPT TABLES
+============================================================
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/tables
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_reference/gaia/metrics
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_v2/sdss/metrics
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/class_specific/sdss
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/external_validation/gaia
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/external_validation/sdss
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity_reference/gaia
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss_quality
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss_neighbors
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss_neighbors_fixed_weights
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss/clipping
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss/top_k
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity/sdss/min_effective_features
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/stability_reference/gaia
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/stability/sdss
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/independent_regions/gaia
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/independent_regions/sdss
+
+============================================================
+03. NEW REVISION DATA
+============================================================
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/external_validation
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/independent_regions
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/raw/frozen/gaia_source_ids.txt
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/raw/frozen/gaia_query.adql
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/raw/frozen/gaia_raw_frozen.csv
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/raw/frozen/sdss_raw_frozen.csv
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/raw/frozen/sdss_query.sql
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/gaia_features_reference.csv
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/sdss_features_reference.csv
+COPIED: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/gaia_feature_columns_reference.json
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/configs
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/anomaly_baselines
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/class_specific
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/sensitivity_reference
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/stability
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/stability_reference
+
+============================================================
+04. SUPPLEMENTARY CODE
+============================================================
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/configs
+
+============================================================
+05. REPRODUCIBILITY METADATA
+============================================================
+COPIED DIR: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/configs
+Generating SHA256 manifest...
+
+============================================================
+BUILDING ZIP FILES
+============================================================
+scripts_revision/99_build_final_submission_packages.sh: line 721: zip: command not found

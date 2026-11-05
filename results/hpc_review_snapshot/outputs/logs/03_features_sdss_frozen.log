@@ -1,0 +1,13 @@
+Features SDSS creadas: 50000 filas
+Conteo por clase despues de filtros:
+class
+GALAXY    38484
+QSO       11516
+Archivo guardado en: data/processed/sdss_features_frozen.csv
+Match interno SDSS:
+ - radio angular fijo: 300.0 arcsec
+ - radio redshift-local: 600.0 arcsec
+ - dz maximo: 0.05
+ - % con vecinos angulares en radio fijo: 98.77%
+ - % con vecinos angulares + redshift parecido: 75.96%
+ - mediana distancia vecino cercano: 94.301 arcsec

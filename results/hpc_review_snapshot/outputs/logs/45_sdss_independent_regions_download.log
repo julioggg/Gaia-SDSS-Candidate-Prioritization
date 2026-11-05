@@ -1,0 +1,620 @@
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+========================================================================================================================
+SDSS INDEPENDENT-REGION TILED DOWNLOAD
+========================================================================================================================
+
+========================================================================================================================
+region_A
+========================================================================================================================
+
+CORE
+------------------------------------------------------------------------------------------------------------------------
+Expected count: 227,654
+Tiles: 36
+  tile RA[120.0,125.0) Dec[0.0,5.0)
+    rows: 2,374
+  tile RA[120.0,125.0) Dec[5.0,10.0)
+  attempt 1/5 failed: HTTPError('502 Server Error: Bad Gateway for url: https://skyserver.sdss.org/dr17/en/tools/search/x_results.aspx?cmd=++++++++++SELECT++++++++++++++p.objid%2C+++++p.htmid%2C+++++p.ra%2C+++++p.dec%2C+++++p.u%2C+++++p.g%2C+++++p.r%2C+++++p.i%2C+++++p.z%2C+++++p.err_u%2C+++++p.err_g%2C+++++p.err_r%2C+++++p.err_i%2C+++++p.err_z%2C+++++p.clean%2C+++++s.specobjid%2C+++++s.class%2C+++++s.z+AS+redshift%2C+++++s.zErr+AS+redshift_error%2C+++++s.zWarning++++++++++FROM+PhotoPrimary+AS+p+++++++++JOIN+SpecObj+AS+s+++++++++++++ON+p.objid+%3D+s.bestobjid+++++++++WHERE+++++++++++++p.ra+%3E%3D+120.0+++++++++++++AND+p.ra+%3C+125.0+++++++++++++AND+p.dec+%3E%3D+5.0+++++++++++++AND+p.dec+%3C+10.0++++++++++++++AND+p.ra+IS+NOT+NULL+++++AND+p.dec+IS+NOT+NULL+++++AND+p.u+BETWEEN+10+AND+30+++++AND+p.g+BETWEEN+10+AND+30+++++AND+p.r+BETWEEN+10+AND+30+++++AND+p.i+BETWEEN+10+AND+30+++++AND+p.z+BETWEEN+10+AND+30+++++AND+p.clean+%3D+1+++++AND+s.z+IS+NOT+NULL+++++AND+s.zWarning+%3D+0+++++AND+s.z+%3E+0.01+++++AND+s.z+%3C+5.0+++++AND+s.class+IN+%28%27GALAXY%27%2C+%27QSO%27%29++++++++++&format=csv&searchtool=SQL')
+  attempt 2/5 failed: HTTPError('502 Server Error: Bad Gateway for url: https://skyserver.sdss.org/dr17/en/tools/search/x_results.aspx?cmd=++++++++++SELECT++++++++++++++p.objid%2C+++++p.htmid%2C+++++p.ra%2C+++++p.dec%2C+++++p.u%2C+++++p.g%2C+++++p.r%2C+++++p.i%2C+++++p.z%2C+++++p.err_u%2C+++++p.err_g%2C+++++p.err_r%2C+++++p.err_i%2C+++++p.err_z%2C+++++p.clean%2C+++++s.specobjid%2C+++++s.class%2C+++++s.z+AS+redshift%2C+++++s.zErr+AS+redshift_error%2C+++++s.zWarning++++++++++FROM+PhotoPrimary+AS+p+++++++++JOIN+SpecObj+AS+s+++++++++++++ON+p.objid+%3D+s.bestobjid+++++++++WHERE+++++++++++++p.ra+%3E%3D+120.0+++++++++++++AND+p.ra+%3C+125.0+++++++++++++AND+p.dec+%3E%3D+5.0+++++++++++++AND+p.dec+%3C+10.0++++++++++++++AND+p.ra+IS+NOT+NULL+++++AND+p.dec+IS+NOT+NULL+++++AND+p.u+BETWEEN+10+AND+30+++++AND+p.g+BETWEEN+10+AND+30+++++AND+p.r+BETWEEN+10+AND+30+++++AND+p.i+BETWEEN+10+AND+30+++++AND+p.z+BETWEEN+10+AND+30+++++AND+p.clean+%3D+1+++++AND+s.z+IS+NOT+NULL+++++AND+s.zWarning+%3D+0+++++AND+s.z+%3E+0.01+++++AND+s.z+%3C+5.0+++++AND+s.class+IN+%28%27GALAXY%27%2C+%27QSO%27%29++++++++++&format=csv&searchtool=SQL')
+    rows: 4,004
+  tile RA[120.0,125.0) Dec[10.0,15.0)
+    rows: 4,676
+  tile RA[120.0,125.0) Dec[15.0,20.0)
+    rows: 5,024
+  tile RA[120.0,125.0) Dec[20.0,25.0)
+    rows: 6,901
+  tile RA[120.0,125.0) Dec[25.0,30.0)
+    rows: 6,951
+  tile RA[125.0,130.0) Dec[0.0,5.0)
+    rows: 4,968
+  tile RA[125.0,130.0) Dec[5.0,10.0)
+    rows: 5,326
+  tile RA[125.0,130.0) Dec[10.0,15.0)
+  attempt 1/5 failed: HTTPError('502 Server Error: Bad Gateway for url: https://skyserver.sdss.org/dr17/en/tools/search/x_results.aspx?cmd=++++++++++SELECT++++++++++++++p.objid%2C+++++p.htmid%2C+++++p.ra%2C+++++p.dec%2C+++++p.u%2C+++++p.g%2C+++++p.r%2C+++++p.i%2C+++++p.z%2C+++++p.err_u%2C+++++p.err_g%2C+++++p.err_r%2C+++++p.err_i%2C+++++p.err_z%2C+++++p.clean%2C+++++s.specobjid%2C+++++s.class%2C+++++s.z+AS+redshift%2C+++++s.zErr+AS+redshift_error%2C+++++s.zWarning++++++++++FROM+PhotoPrimary+AS+p+++++++++JOIN+SpecObj+AS+s+++++++++++++ON+p.objid+%3D+s.bestobjid+++++++++WHERE+++++++++++++p.ra+%3E%3D+125.0+++++++++++++AND+p.ra+%3C+130.0+++++++++++++AND+p.dec+%3E%3D+10.0+++++++++++++AND+p.dec+%3C+15.0++++++++++++++AND+p.ra+IS+NOT+NULL+++++AND+p.dec+IS+NOT+NULL+++++AND+p.u+BETWEEN+10+AND+30+++++AND+p.g+BETWEEN+10+AND+30+++++AND+p.r+BETWEEN+10+AND+30+++++AND+p.i+BETWEEN+10+AND+30+++++AND+p.z+BETWEEN+10+AND+30+++++AND+p.clean+%3D+1+++++AND+s.z+IS+NOT+NULL+++++AND+s.zWarning+%3D+0+++++AND+s.z+%3E+0.01+++++AND+s.z+%3C+5.0+++++AND+s.class+IN+%28%27GALAXY%27%2C+%27QSO%27%29++++++++++&format=csv&searchtool=SQL')
+    rows: 4,978
+  tile RA[125.0,130.0) Dec[15.0,20.0)
+    rows: 5,975
+  tile RA[125.0,130.0) Dec[20.0,25.0)
+    rows: 6,823
+  tile RA[125.0,130.0) Dec[25.0,30.0)
+    rows: 7,801
+  tile RA[130.0,135.0) Dec[0.0,5.0)
+    rows: 6,033
+  tile RA[130.0,135.0) Dec[5.0,10.0)
+    rows: 5,162
+  tile RA[130.0,135.0) Dec[10.0,15.0)
+  attempt 1/5 failed: HTTPError('502 Server Error: Bad Gateway for url: https://skyserver.sdss.org/dr17/en/tools/search/x_results.aspx?cmd=++++++++++SELECT++++++++++++++p.objid%2C+++++p.htmid%2C+++++p.ra%2C+++++p.dec%2C+++++p.u%2C+++++p.g%2C+++++p.r%2C+++++p.i%2C+++++p.z%2C+++++p.err_u%2C+++++p.err_g%2C+++++p.err_r%2C+++++p.err_i%2C+++++p.err_z%2C+++++p.clean%2C+++++s.specobjid%2C+++++s.class%2C+++++s.z+AS+redshift%2C+++++s.zErr+AS+redshift_error%2C+++++s.zWarning++++++++++FROM+PhotoPrimary+AS+p+++++++++JOIN+SpecObj+AS+s+++++++++++++ON+p.objid+%3D+s.bestobjid+++++++++WHERE+++++++++++++p.ra+%3E%3D+130.0+++++++++++++AND+p.ra+%3C+135.0+++++++++++++AND+p.dec+%3E%3D+10.0+++++++++++++AND+p.dec+%3C+15.0++++++++++++++AND+p.ra+IS+NOT+NULL+++++AND+p.dec+IS+NOT+NULL+++++AND+p.u+BETWEEN+10+AND+30+++++AND+p.g+BETWEEN+10+AND+30+++++AND+p.r+BETWEEN+10+AND+30+++++AND+p.i+BETWEEN+10+AND+30+++++AND+p.z+BETWEEN+10+AND+30+++++AND+p.clean+%3D+1+++++AND+s.z+IS+NOT+NULL+++++AND+s.zWarning+%3D+0+++++AND+s.z+%3E+0.01+++++AND+s.z+%3C+5.0+++++AND+s.class+IN+%28%27GALAXY%27%2C+%27QSO%27%29++++++++++&format=csv&searchtool=SQL')
+    rows: 5,022
+  tile RA[130.0,135.0) Dec[15.0,20.0)
+    rows: 7,634
+  tile RA[130.0,135.0) Dec[20.0,25.0)
+    rows: 8,038
+  tile RA[130.0,135.0) Dec[25.0,30.0)
+    rows: 8,936
+  tile RA[135.0,140.0) Dec[0.0,5.0)
+    rows: 6,329
+  tile RA[135.0,140.0) Dec[5.0,10.0)
+    rows: 5,562
+  tile RA[135.0,140.0) Dec[10.0,15.0)
+    rows: 5,709
+  tile RA[135.0,140.0) Dec[15.0,20.0)
+    rows: 7,531
+  tile RA[135.0,140.0) Dec[20.0,25.0)
+    rows: 6,950
+  tile RA[135.0,140.0) Dec[25.0,30.0)
+    rows: 8,662
+  tile RA[140.0,145.0) Dec[0.0,5.0)
+    rows: 5,892
+  tile RA[140.0,145.0) Dec[5.0,10.0)
+    rows: 5,861
+  tile RA[140.0,145.0) Dec[10.0,15.0)
+    rows: 6,041
+  tile RA[140.0,145.0) Dec[15.0,20.0)
+    rows: 6,782
+  tile RA[140.0,145.0) Dec[20.0,25.0)
+    rows: 6,129
+  tile RA[140.0,145.0) Dec[25.0,30.0)
+    rows: 8,607
+  tile RA[145.0,150.0) Dec[0.0,5.0)
+    rows: 6,126
+  tile RA[145.0,150.0) Dec[5.0,10.0)
+    rows: 5,694
+  tile RA[145.0,150.0) Dec[10.0,15.0)
+    rows: 5,944
+  tile RA[145.0,150.0) Dec[15.0,20.0)
+    rows: 6,906
+  tile RA[145.0,150.0) Dec[20.0,25.0)
+    rows: 7,044
+  tile RA[145.0,150.0) Dec[25.0,30.0)
+    rows: 9,259
+Rows before dedup: 227,654
+Unique objid: 227,654
+Frozen sample: 50,000
+
+BUFFERED REFERENCE
+------------------------------------------------------------------------------------------------------------------------
+Expected count: 235,389
+Tiles: 49
+  tile RA[119.75,124.75) Dec[-0.25,4.75)
+    rows: 2,215
+  tile RA[119.75,124.75) Dec[4.75,9.75)
+    rows: 3,768
+  tile RA[119.75,124.75) Dec[9.75,14.75)
+    rows: 4,718
+  tile RA[119.75,124.75) Dec[14.75,19.75)
+    rows: 5,104
+  tile RA[119.75,124.75) Dec[19.75,24.75)
+    rows: 6,683
+  tile RA[119.75,124.75) Dec[24.75,29.75)
+    rows: 7,003
+  tile RA[119.75,124.75) Dec[29.75,30.25)
+    rows: 690
+  tile RA[124.75,129.75) Dec[-0.25,4.75)
+    rows: 4,780
+  tile RA[124.75,129.75) Dec[4.75,9.75)
+    rows: 5,278
+  tile RA[124.75,129.75) Dec[9.75,14.75)
+    rows: 4,947
+  tile RA[124.75,129.75) Dec[14.75,19.75)
+    rows: 5,917
+  tile RA[124.75,129.75) Dec[19.75,24.75)
+    rows: 6,821
+  tile RA[124.75,129.75) Dec[24.75,29.75)
+    rows: 7,776
+  tile RA[124.75,129.75) Dec[29.75,30.25)
+    rows: 722
+  tile RA[129.75,134.75) Dec[-0.25,4.75)
+    rows: 6,130
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+  tile RA[129.75,134.75) Dec[4.75,9.75)
+    rows: 5,196
+  tile RA[129.75,134.75) Dec[9.75,14.75)
+    rows: 5,016
+  tile RA[129.75,134.75) Dec[14.75,19.75)
+    rows: 7,275
+  tile RA[129.75,134.75) Dec[19.75,24.75)
+    rows: 7,922
+  tile RA[129.75,134.75) Dec[24.75,29.75)
+    rows: 8,896
+  tile RA[129.75,134.75) Dec[29.75,30.25)
+    rows: 965
+  tile RA[134.75,139.75) Dec[-0.25,4.75)
+    rows: 6,178
+  tile RA[134.75,139.75) Dec[4.75,9.75)
+    rows: 5,557
+  tile RA[134.75,139.75) Dec[9.75,14.75)
+    rows: 5,561
+  tile RA[134.75,139.75) Dec[14.75,19.75)
+    rows: 7,587
+  tile RA[134.75,139.75) Dec[19.75,24.75)
+    rows: 7,019
+  tile RA[134.75,139.75) Dec[24.75,29.75)
+    rows: 8,612
+  tile RA[134.75,139.75) Dec[29.75,30.25)
+    rows: 1,003
+  tile RA[139.75,144.75) Dec[-0.25,4.75)
+    rows: 6,043
+  tile RA[139.75,144.75) Dec[4.75,9.75)
+    rows: 5,909
+  tile RA[139.75,144.75) Dec[9.75,14.75)
+    rows: 5,962
+  tile RA[139.75,144.75) Dec[14.75,19.75)
+    rows: 6,863
+  tile RA[139.75,144.75) Dec[19.75,24.75)
+    rows: 6,028
+  tile RA[139.75,144.75) Dec[24.75,29.75)
+    rows: 8,382
+  tile RA[139.75,144.75) Dec[29.75,30.25)
+    rows: 992
+  tile RA[144.75,149.75) Dec[-0.25,4.75)
+    rows: 6,122
+  tile RA[144.75,149.75) Dec[4.75,9.75)
+    rows: 5,604
+  tile RA[144.75,149.75) Dec[9.75,14.75)
+    rows: 5,836
+  tile RA[144.75,149.75) Dec[14.75,19.75)
+    rows: 6,953
+  tile RA[144.75,149.75) Dec[19.75,24.75)
+    rows: 7,031
+  tile RA[144.75,149.75) Dec[24.75,29.75)
+    rows: 9,244
+  tile RA[144.75,149.75) Dec[29.75,30.25)
+    rows: 908
+  tile RA[149.75,150.25) Dec[-0.25,4.75)
+    rows: 715
+  tile RA[149.75,150.25) Dec[4.75,9.75)
+    rows: 605
+  tile RA[149.75,150.25) Dec[9.75,14.75)
+    rows: 629
+  tile RA[149.75,150.25) Dec[14.75,19.75)
+    rows: 638
+  tile RA[149.75,150.25) Dec[19.75,24.75)
+    rows: 684
+  tile RA[149.75,150.25) Dec[24.75,29.75)
+    rows: 813
+  tile RA[149.75,150.25) Dec[29.75,30.25)
+    rows: 89
+Rows before dedup: 235,389
+Unique objid: 235,389
+Frozen IDs present in reference: 50,000 / 50,000
+
+========================================================================================================================
+region_G
+========================================================================================================================
+
+CORE
+------------------------------------------------------------------------------------------------------------------------
+Expected count: 272,222
+Tiles: 48
+  tile RA[200.0,205.0) Dec[30.0,35.0)
+    rows: 6,275
+  tile RA[200.0,205.0) Dec[35.0,40.0)
+    rows: 6,762
+  tile RA[200.0,205.0) Dec[40.0,45.0)
+    rows: 6,094
+  tile RA[200.0,205.0) Dec[45.0,50.0)
+    rows: 6,131
+  tile RA[200.0,205.0) Dec[50.0,55.0)
+    rows: 5,517
+  tile RA[200.0,205.0) Dec[55.0,60.0)
+    rows: 5,065
+  tile RA[205.0,210.0) Dec[30.0,35.0)
+    rows: 5,703
+  tile RA[205.0,210.0) Dec[35.0,40.0)
+    rows: 7,402
+  tile RA[205.0,210.0) Dec[40.0,45.0)
+    rows: 5,618
+  tile RA[205.0,210.0) Dec[45.0,50.0)
+    rows: 6,078
+  tile RA[205.0,210.0) Dec[50.0,55.0)
+    rows: 4,820
+  tile RA[205.0,210.0) Dec[55.0,60.0)
+    rows: 4,657
+  tile RA[210.0,215.0) Dec[30.0,35.0)
+    rows: 4,793
+  tile RA[210.0,215.0) Dec[35.0,40.0)
+    rows: 6,250
+  tile RA[210.0,215.0) Dec[40.0,45.0)
+    rows: 6,172
+  tile RA[210.0,215.0) Dec[45.0,50.0)
+    rows: 5,340
+  tile RA[210.0,215.0) Dec[50.0,55.0)
+    rows: 6,931
+  tile RA[210.0,215.0) Dec[55.0,60.0)
+    rows: 4,736
+  tile RA[215.0,220.0) Dec[30.0,35.0)
+    rows: 5,421
+  tile RA[215.0,220.0) Dec[35.0,40.0)
+    rows: 6,573
+  tile RA[215.0,220.0) Dec[40.0,45.0)
+    rows: 6,329
+  tile RA[215.0,220.0) Dec[45.0,50.0)
+    rows: 6,168
+  tile RA[215.0,220.0) Dec[50.0,55.0)
+    rows: 6,767
+  tile RA[215.0,220.0) Dec[55.0,60.0)
+    rows: 4,978
+  tile RA[220.0,225.0) Dec[30.0,35.0)
+    rows: 5,700
+  tile RA[220.0,225.0) Dec[35.0,40.0)
+    rows: 6,649
+  tile RA[220.0,225.0) Dec[40.0,45.0)
+    rows: 5,922
+  tile RA[220.0,225.0) Dec[45.0,50.0)
+    rows: 6,088
+  tile RA[220.0,225.0) Dec[50.0,55.0)
+    rows: 5,177
+  tile RA[220.0,225.0) Dec[55.0,60.0)
+    rows: 4,757
+  tile RA[225.0,230.0) Dec[30.0,35.0)
+    rows: 4,955
+  tile RA[225.0,230.0) Dec[35.0,40.0)
+    rows: 6,373
+  tile RA[225.0,230.0) Dec[40.0,45.0)
+    rows: 6,293
+  tile RA[225.0,230.0) Dec[45.0,50.0)
+    rows: 5,441
+  tile RA[225.0,230.0) Dec[50.0,55.0)
+    rows: 4,821
+  tile RA[225.0,230.0) Dec[55.0,60.0)
+    rows: 4,390
+  tile RA[230.0,235.0) Dec[30.0,35.0)
+    rows: 5,658
+  tile RA[230.0,235.0) Dec[35.0,40.0)
+    rows: 6,467
+  tile RA[230.0,235.0) Dec[40.0,45.0)
+    rows: 5,660
+  tile RA[230.0,235.0) Dec[45.0,50.0)
+    rows: 5,467
+  tile RA[230.0,235.0) Dec[50.0,55.0)
+    rows: 5,027
+  tile RA[230.0,235.0) Dec[55.0,60.0)
+    rows: 4,097
+  tile RA[235.0,240.0) Dec[30.0,35.0)
+    rows: 5,399
+  tile RA[235.0,240.0) Dec[35.0,40.0)
+    rows: 6,378
+  tile RA[235.0,240.0) Dec[40.0,45.0)
+    rows: 5,941
+  tile RA[235.0,240.0) Dec[45.0,50.0)
+    rows: 5,557
+  tile RA[235.0,240.0) Dec[50.0,55.0)
+    rows: 5,463
+  tile RA[235.0,240.0) Dec[55.0,60.0)
+    rows: 3,962
+Rows before dedup: 272,222
+Unique objid: 272,222
+Frozen sample: 50,000
+
+BUFFERED REFERENCE
+------------------------------------------------------------------------------------------------------------------------
+Expected count: 279,036
+Tiles: 63
+  tile RA[199.75,204.75) Dec[29.75,34.75)
+    rows: 6,361
+  tile RA[199.75,204.75) Dec[34.75,39.75)
+    rows: 6,632
+  tile RA[199.75,204.75) Dec[39.75,44.75)
+    rows: 6,129
+  tile RA[199.75,204.75) Dec[44.75,49.75)
+    rows: 6,211
+  tile RA[199.75,204.75) Dec[49.75,54.75)
+    rows: 5,564
+  tile RA[199.75,204.75) Dec[54.75,59.75)
+    rows: 5,073
+  tile RA[199.75,204.75) Dec[59.75,60.25)
+    rows: 368
+  tile RA[204.75,209.75) Dec[29.75,34.75)
+    rows: 5,740
+  tile RA[204.75,209.75) Dec[34.75,39.75)
+    rows: 7,324
+  tile RA[204.75,209.75) Dec[39.75,44.75)
+    rows: 5,694
+  tile RA[204.75,209.75) Dec[44.75,49.75)
+    rows: 6,093
+  tile RA[204.75,209.75) Dec[49.75,54.75)
+    rows: 4,917
+  tile RA[204.75,209.75) Dec[54.75,59.75)
+    rows: 4,786
+  tile RA[204.75,209.75) Dec[59.75,60.25)
+    rows: 267
+  tile RA[209.75,214.75) Dec[29.75,34.75)
+    rows: 4,708
+  tile RA[209.75,214.75) Dec[34.75,39.75)
+    rows: 6,244
+  tile RA[209.75,214.75) Dec[39.75,44.75)
+    rows: 6,150
+  tile RA[209.75,214.75) Dec[44.75,49.75)
+    rows: 5,344
+  tile RA[209.75,214.75) Dec[49.75,54.75)
+    rows: 6,638
+  tile RA[209.75,214.75) Dec[54.75,59.75)
+    rows: 4,885
+  tile RA[209.75,214.75) Dec[59.75,60.25)
+    rows: 317
+  tile RA[214.75,219.75) Dec[29.75,34.75)
+    rows: 5,269
+  tile RA[214.75,219.75) Dec[34.75,39.75)
+    rows: 6,612
+  tile RA[214.75,219.75) Dec[39.75,44.75)
+    rows: 6,477
+  tile RA[214.75,219.75) Dec[44.75,49.75)
+    rows: 6,193
+  tile RA[214.75,219.75) Dec[49.75,54.75)
+    rows: 6,872
+  tile RA[214.75,219.75) Dec[54.75,59.75)
+    rows: 5,013
+  tile RA[214.75,219.75) Dec[59.75,60.25)
+    rows: 356
+  tile RA[219.75,224.75) Dec[29.75,34.75)
+    rows: 5,632
+  tile RA[219.75,224.75) Dec[34.75,39.75)
+    rows: 6,734
+  tile RA[219.75,224.75) Dec[39.75,44.75)
+    rows: 5,915
+  tile RA[219.75,224.75) Dec[44.75,49.75)
+    rows: 6,039
+  tile RA[219.75,224.75) Dec[49.75,54.75)
+    rows: 5,311
+  tile RA[219.75,224.75) Dec[54.75,59.75)
+    rows: 4,849
+  tile RA[219.75,224.75) Dec[59.75,60.25)
+    rows: 342
+  tile RA[224.75,229.75) Dec[29.75,34.75)
+    rows: 4,840
+  tile RA[224.75,229.75) Dec[34.75,39.75)
+    rows: 6,472
+  tile RA[224.75,229.75) Dec[39.75,44.75)
+    rows: 6,301
+  tile RA[224.75,229.75) Dec[44.75,49.75)
+    rows: 5,520
+  tile RA[224.75,229.75) Dec[49.75,54.75)
+    rows: 4,903
+  tile RA[224.75,229.75) Dec[54.75,59.75)
+    rows: 4,407
+  tile RA[224.75,229.75) Dec[59.75,60.25)
+    rows: 341
+  tile RA[229.75,234.75) Dec[29.75,34.75)
+    rows: 5,634
+  tile RA[229.75,234.75) Dec[34.75,39.75)
+    rows: 6,518
+  tile RA[229.75,234.75) Dec[39.75,44.75)
+    rows: 5,624
+  tile RA[229.75,234.75) Dec[44.75,49.75)
+    rows: 5,465
+  tile RA[229.75,234.75) Dec[49.75,54.75)
+    rows: 5,017
+  tile RA[229.75,234.75) Dec[54.75,59.75)
+    rows: 4,178
+  tile RA[229.75,234.75) Dec[59.75,60.25)
+    rows: 290
+  tile RA[234.75,239.75) Dec[29.75,34.75)
+    rows: 5,283
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+WARNING: OverflowError converting to IntType in column specobjid, reverting to String. [astropy.io.ascii.fastbasic]
+  tile RA[234.75,239.75) Dec[34.75,39.75)
+    rows: 6,390
+  tile RA[234.75,239.75) Dec[39.75,44.75)
+    rows: 5,985
+  tile RA[234.75,239.75) Dec[44.75,49.75)
+    rows: 5,663
+  tile RA[234.75,239.75) Dec[49.75,54.75)
+    rows: 5,355
+  tile RA[234.75,239.75) Dec[54.75,59.75)
+    rows: 4,128
+  tile RA[234.75,239.75) Dec[59.75,60.25)
+    rows: 287
+  tile RA[239.75,240.25) Dec[29.75,34.75)
+    rows: 687
+  tile RA[239.75,240.25) Dec[34.75,39.75)
+    rows: 577
+  tile RA[239.75,240.25) Dec[39.75,44.75)
+    rows: 568
+  tile RA[239.75,240.25) Dec[44.75,49.75)
+    rows: 538
+  tile RA[239.75,240.25) Dec[49.75,54.75)
+    rows: 596
+  tile RA[239.75,240.25) Dec[54.75,59.75)
+    rows: 388
+  tile RA[239.75,240.25) Dec[59.75,60.25)
+    rows: 22
+Rows before dedup: 279,036
+Unique objid: 279,036
+Frozen IDs present in reference: 50,000 / 50,000
+
+============================================================================================================================================
+SDSS INDEPENDENT REGION DOWNLOAD SUMMARY
+============================================================================================================================================
+  region  core_count  frozen_n  reference_count
+region_A      227654     50000           235389
+region_G      272222     50000           279036
+
+Saved: /home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/independent_regions/sdss/download_summary.csv
+DONE.
