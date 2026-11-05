@@ -1,0 +1,25 @@
+{
+  "experiment": 44,
+  "group": "ablations",
+  "catalog": "sdss",
+  "seed": 42,
+  "top_k": 1000,
+  "min_effective_features": 3,
+  "maxiter": 180,
+  "popsize": 15,
+  "tol": 1e-06,
+  "baseline_coefficients": {
+    "score": 0.55,
+    "diversity": 0.2,
+    "entropy": 0.2,
+    "concentration": 0.25
+  },
+  "scenarios": [
+    "full",
+    "no_entropy",
+    "no_concentration",
+    "no_entropy_no_concentration"
+  ],
+  "caution": "Convergence and objective-induced weight structure, not external utility",
+  "rank_normalization_caution": "Empirical ranks of already clipped feature values"
+}

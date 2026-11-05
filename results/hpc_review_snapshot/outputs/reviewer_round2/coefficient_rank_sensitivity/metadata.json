@@ -1,0 +1,73 @@
+{
+  "experiment": 46,
+  "data": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/sdss_features_reference.csv",
+  "weights": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_v2/sdss/metrics/weights_sdss.csv",
+  "feature_columns": [
+    "f_photometric_quality",
+    "f_color_rarity",
+    "f_redshift_interest",
+    "f_redshift_precision",
+    "f_local_density",
+    "f_isolation"
+  ],
+  "seed_list": [
+    42,
+    7,
+    123
+  ],
+  "settings": [
+    "entropy_half",
+    "entropy_double",
+    "concentration_half",
+    "concentration_double",
+    "diversity_half",
+    "diversity_double",
+    "score_half",
+    "score_double"
+  ],
+  "k": 1000,
+  "maxiter": 500,
+  "popsize": 20,
+  "tol": 0.0001,
+  "min_eff": 3.0,
+  "original_objective": {
+    "score": 0.55,
+    "diversity": 0.2,
+    "entropy": 0.2,
+    "concentration": 0.25
+  },
+  "coefficient_modifications": {
+    "original": {},
+    "entropy_half": {
+      "entropy": 0.1
+    },
+    "entropy_double": {
+      "entropy": 0.4
+    },
+    "concentration_half": {
+      "concentration": 0.125
+    },
+    "concentration_double": {
+      "concentration": 0.5
+    },
+    "diversity_half": {
+      "diversity": 0.1
+    },
+    "diversity_double": {
+      "diversity": 0.4
+    },
+    "score_half": {
+      "score": 0.275
+    },
+    "score_double": {
+      "score": 1.1
+    },
+    "empirical_percentile_rank": {}
+  },
+  "caveats": [
+    "rank normalization is applied to feature columns AFTER original raw-data clipping",
+    "different objective values across settings are not commensurate",
+    "optimizer_success is not a global optimality certificate",
+    "ranking agreement is not external astronomical utility"
+  ]
+}

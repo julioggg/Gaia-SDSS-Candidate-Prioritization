@@ -1,0 +1,23 @@
+{
+  "experiment": 51,
+  "data_release": "SDSS DR17",
+  "matching": "Exact specobjid and bestobjid = target objid",
+  "n_target_rows": 85313,
+  "n_unique_specobjid": 85313,
+  "batch_size": 50,
+  "source_files": [
+    {
+      "region": "region_A",
+      "rows": 43224,
+      "file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/disjoint_fixed_transfer/region_A_heldout_all_features.csv",
+      "sha256": "6c6d6d00cbd88550318ec15e8b9e099ca4ce635df72d7f7b53242b0357c8bcdb"
+    },
+    {
+      "region": "region_G",
+      "rows": 42089,
+      "file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/disjoint_fixed_transfer/region_G_heldout_all_features.csv",
+      "sha256": "51ae6f82bb0babd5f1a3c50398adb04ff50baea9ae08405d4e9ee2a9d7630c28"
+    }
+  ],
+  "caution": "Exact-match label retrieval; no outcome threshold or model fitting"
+}

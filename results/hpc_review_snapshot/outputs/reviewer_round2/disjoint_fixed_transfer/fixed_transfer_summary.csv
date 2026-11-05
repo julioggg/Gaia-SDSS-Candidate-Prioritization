@@ -1,0 +1,3 @@
+region,initial_targets,excluded_baseline_targets,retained_targets,top_k,mean_score_all,mean_score_topk,qso_fraction_all,qso_fraction_topk,reoptimized,baseline_parameters_frozen,regional_reference_overlaps_baseline_reference
+region_A,50000,6776,43224,1000,0.5589794126954978,0.9343174683963946,0.19257819729779752,0.111,False,True,True
+region_G,50000,7911,42089,1000,0.5339068588324835,0.8964178945136395,0.30922568842215303,0.139,False,True,True

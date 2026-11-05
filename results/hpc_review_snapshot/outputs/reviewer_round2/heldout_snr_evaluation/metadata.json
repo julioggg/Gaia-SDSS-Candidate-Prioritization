@@ -1,0 +1,46 @@
+{
+  "experiment": 52,
+  "model": "original SDSS optimized geometric score with baseline weights and normalization frozen",
+  "weights": {
+    "f_photometric_quality": 0.3340450213471885,
+    "f_color_rarity": 1.6871176375476597e-05,
+    "f_redshift_interest": 1.1316559001414842e-05,
+    "f_redshift_precision": 0.3322346229489074,
+    "f_local_density": 1.6652770355569455e-06,
+    "f_isolation": 0.3336905026914916
+  },
+  "thresholds_exploratory_after_exp49": [
+    5.0,
+    10.0
+  ],
+  "top_fraction": 0.1,
+  "bootstrap_reps": 200,
+  "seed": 20261104,
+  "label_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/heldout_spectroscopy/region_external_spectroscopic_labels.csv",
+  "label_sha256": "5af1316178ad08df9d9107297f7b45afe5f3777a8e99b9a6131ee04161cae06e",
+  "weights_sha256": "8ee4ad132050e26628190ba9ee4d2189a457fe227438f430ba0c2e74ff4c3b20",
+  "input_features": [
+    {
+      "region": "region_A",
+      "input_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/disjoint_fixed_transfer/region_A_heldout_all_features.csv",
+      "input_sha256": "6c6d6d00cbd88550318ec15e8b9e099ca4ce635df72d7f7b53242b0357c8bcdb",
+      "total_rows": 43224
+    },
+    {
+      "region": "region_G",
+      "input_file": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/disjoint_fixed_transfer/region_G_heldout_all_features.csv",
+      "input_sha256": "51ae6f82bb0babd5f1a3c50398adb04ff50baea9ae08405d4e9ee2a9d7630c28",
+      "total_rows": 42089
+    }
+  ],
+  "duplicate_object_occurrences_across_regions": 0,
+  "limitations": [
+    "No region-level refitting or weight optimization",
+    "Region targets exclude all 50k baseline target IDs",
+    "Spatial reference pools overlap baseline reference",
+    "SNR external to ranking feature columns but observationally correlated",
+    "Cutoffs were selected after inspecting experiment49 distributions",
+    "Region A and G may share objects and are evaluated separately",
+    "Bootstrap assumes iid objects within each region; sky correlations remain possible"
+  ]
+}

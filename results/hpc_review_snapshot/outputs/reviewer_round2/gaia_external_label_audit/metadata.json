@@ -1,0 +1,28 @@
+{
+  "phot_variable_flag_values": {
+    "NOT_AVAILABLE": 5135,
+    "VARIABLE": 70
+  },
+  "non_single_star_null_count": 0,
+  "variable_and_nss_both": 0,
+  "dsc_starprob_nonnull": 5203,
+  "dsc_starprob_invalid_outside_0_1": 0,
+  "missing_dsc_excluded": 2,
+  "input_sha256": {
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/gaia/gaia_external_labels_exact.csv": "8d030ec6216ff29febc1018435edaa983b58ebd9d1a7748fa6fefe9b0f87e0e5",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/gaia/gaia_extended_external_labels_exact.csv": "0f8dabb739377e6f0038b0dff0bbe08f78f4e75f5377d204bb414ae53e499930",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_reference/gaia/metrics/ranked_gaia.csv": "77389e613dcb10ed635153f076df768ecf0ce4c0e1c33ce07f295dabe1a3f00b"
+  },
+  "method": "positive VARIABLE iff phot_variable_flag equals VARIABLE; NSS iff non_single_star>0; union by OR; DSC nonstar iff valid probability star<0.5",
+  "limitations": [
+    "Null NSS was mapped to zero in the original label pipeline; report this treatment rather than interpreting null as physical absence",
+    "DSC nulls excluded for DSC validation, unlike original extended precomputed binary indicator",
+    "Bootstrap intervals assume iid sources and do not account for spatial selection",
+    "Positive astrophysical labels are archive indicators, not exhaustive ground truth",
+    "All tests conditional on baseline quality-selected Gaia sample",
+    "Bonferroni family covers only four labels and five tested top-K cutoffs in this script; wider exploratory benchmark family may require stricter adjustment"
+  ],
+  "bootstrap_reps": 500,
+  "seed": 20261105,
+  "n_bonferroni": 20
+}

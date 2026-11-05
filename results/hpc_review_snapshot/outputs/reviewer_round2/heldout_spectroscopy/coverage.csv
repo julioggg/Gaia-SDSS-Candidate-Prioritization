@@ -1,0 +1,3 @@
+region,target_rows,retrieved_spec_rows,valid_snr_rows,valid_snr_fraction
+region_A,43224,43224,43222,0.9999537294095873
+region_G,42089,42089,42089,1.0

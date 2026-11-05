@@ -1,0 +1,7 @@
+setting,seed_a,seed_b,topk_overlap,topk_jaccard
+original,42,7,992,0.9841269841269841
+original,42,123,992,0.9841269841269841
+original,7,123,998,0.9960079840319361
+empirical_percentile_rank,42,7,0,0.0
+empirical_percentile_rank,42,123,0,0.0
+empirical_percentile_rank,7,123,20,0.010101010101010102

@@ -1,0 +1,6 @@
+variable,spearman_with_relative_cmd_sparse_cell
+f_photometric_color_rarity,0.1256772478858409
+f_absolute_magnitude_rarity,0.21253693484979047
+color_deviation_from_parent_median,0.1256532327165894
+absolute_mag_deviation_from_parent_median,0.2125189443880553
+baseline_score,0.05723184326626654

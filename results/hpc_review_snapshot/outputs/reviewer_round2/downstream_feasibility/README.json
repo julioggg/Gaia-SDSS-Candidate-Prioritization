@@ -1,0 +1,15 @@
+{
+  "experiment": 49,
+  "purpose": "assess feasibility before pre-registering an independent SDSS decision endpoint",
+  "input_sha256": {
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/sdss_features_reference.csv": "a3080bfe9007127f0a4087efa09a59b160aea0b1510bb33671203551f025f01a",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/external_validation/sdss/sdss_external_labels_exact.csv": "d953c1ddce232b442e2d819ca774736ab1ad089394a6e1716fb7e9e4b48e5d33",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/baseline_v2/sdss/metrics/weights_sdss.csv": "8ee4ad132050e26628190ba9ee4d2189a457fe227438f430ba0c2e74ff4c3b20"
+  },
+  "limitations": [
+    "snMedian and fit diagnostics may correlate with measured inputs and survey selection",
+    "No success threshold has been chosen or assessed",
+    "Existing labels were retrieved for baseline only, not held-out region A/G",
+    "Do not interpret score-stratified differences as discovery validation"
+  ]
+}

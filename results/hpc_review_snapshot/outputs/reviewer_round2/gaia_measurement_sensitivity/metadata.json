@@ -1,0 +1,82 @@
+{
+  "experiment": 54,
+  "data": "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/gaia_features_reference.csv",
+  "weights": {
+    "f_astrometric_quality": 0.07631970059324943,
+    "f_photometric_color_rarity": 0.2707071757071107,
+    "f_absolute_magnitude_rarity": 0.20086228698489197,
+    "f_kinematic_interest": 0.30865818461817524,
+    "f_local_density": 0.008974099431155003,
+    "f_isolation": 0.13447855266541775
+  },
+  "input_sha256": "0abadfdf3be9cfdd488822b8f420cc9ef4a9de85eb3aecced719a8194401d4c7",
+  "weights_sha256": "d7f41461455584735a04677867b1c374acb7e94928ea642030d31ea8aad8b77b",
+  "feature_reconstruction_max_abs_error": {
+    "f_astrometric_quality": 2.220446049250313e-16,
+    "f_photometric_color_rarity": 1.1102230246251565e-16,
+    "f_absolute_magnitude_rarity": 4.440892098500626e-16,
+    "f_kinematic_interest": 3.3306690738754696e-16,
+    "f_local_density": 2.220446049250313e-16,
+    "f_isolation": 2.220446049250313e-16
+  },
+  "normalization_frozen": true,
+  "weights_frozen": true,
+  "original_processed_target_ids_frozen": true,
+  "random_seed": 20261105,
+  "one_sigma_draws": 20,
+  "limitations": [
+    "Perturbation amplitudes are illustrative, not a source-specific Gaia zero-point or extinction model",
+    "Uniform G and color shifts illustrate systematics; real extinction varies by distance/sightline",
+    "Gaussian parallax perturbations assume independent errors and ignore correlations",
+    "Nonpositive perturbed parallax is floored to 1e-6 mas, not a physical distance inference",
+    "Selection is conditional on original quality-filtered 5205 sources; no replacement with excluded sources",
+    "Neighborhood metrics kept frozen to isolate photometric/astrometric changes",
+    "CMD is uncorrected and not an astrophysical classification diagnostic"
+  ],
+  "feature_normalization": {
+    "ruwe": {
+      "median": 1.027918,
+      "lo": 0.902396552,
+      "hi": 1.3062313760000002
+    },
+    "parallax_snr": {
+      "median": 15.533657892539097,
+      "lo": 5.09593420113507,
+      "hi": 315.8253064817858
+    },
+    "log_vtan": {
+      "median": 4.073559151705106,
+      "lo": 1.9718274359579602,
+      "hi": 5.891096356326602
+    },
+    "local_density_knn": {
+      "median": 0.1929174605849723,
+      "lo": 0.07795993555785893,
+      "hi": 0.7169800363833503
+    },
+    "neighbor_count_radius": {
+      "median": 2.0,
+      "lo": 0.0,
+      "hi": 6.0
+    },
+    "nn_sep_arcsec": {
+      "median": 65.68831053651357,
+      "lo": 3.489379077613836,
+      "hi": 171.8696754826668
+    },
+    "color_deviation": {
+      "median": 0.67421625,
+      "lo": 0.016363580000000103,
+      "hi": 1.6099094760000006
+    },
+    "mag_deviation": {
+      "median": 2.1538708775266393,
+      "lo": 0.049026811543819236,
+      "hi": 6.692178533897274
+    }
+  },
+  "feature_medians": {
+    "bp_rp": 1.6032171,
+    "abs_g_mag": 7.503587106566528
+  }
+}

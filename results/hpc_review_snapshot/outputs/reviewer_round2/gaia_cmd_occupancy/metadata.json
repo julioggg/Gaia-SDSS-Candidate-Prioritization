@@ -1,0 +1,17 @@
+{
+  "experiment": 55,
+  "method": "descriptive 16x16 equal-width grid spanning 1st\u201399th percentile CMD values",
+  "parent": "5205 selected Gaia DR3 sources (parallax SNR >=5; RUWE<1.4; vtan<=1500)",
+  "grid_boundary_rule": "1% tails clipped to edge cells for counting, not discarded",
+  "input_sha256": {
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/outputs/reviewer_round2/gaia_measurement_sensitivity/gaia_rank_and_cmd_data.csv": "c7fd708bc19dd90807b148ec82c20b951e099edf9d7f75234bccb1d26e9b0e74",
+    "/home/julio.guerra__utn.edu.ec/universe_revision/revision_v2/data/processed/gaia_features_reference.csv": "0abadfdf3be9cfdd488822b8f420cc9ef4a9de85eb3aecced719a8194401d4c7"
+  },
+  "notes": [
+    "Grid density is conditional on footprint, SNR quality selection, observational completeness and bin choice.",
+    "Low-count cells are descriptive relative to these 5205 objects; no physical discovery probability.",
+    "A 16x16 grid is arbitrary and results must not be treated as binning-independent.",
+    "Absolute magnitude uses positive-parallax approximation without extinction/zero-point correction.",
+    "Not an uncertainty-propagation or calibrated stellar population analysis."
+  ]
+}
